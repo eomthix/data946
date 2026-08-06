@@ -181,7 +181,9 @@ return {
             ["dist_phone"] = 0x200BC58, --1.73.5
             ["dist_emu"] = 0x2066508, --1.73.5
             ["detach_phone"] = 0x1A4F6C8, --1.73.5
-            ["detach_emu"] = 0x19DA049 --1.73.5
+            ["detach_emu"] = 0x19DA049, --1.73.5
+			["fuel_phone"] = 0x1A4E44C, --1.73.5
+		    ["fuel_emu"] = 0x19D8CBB --1.73.5
         },
         ["logic"] = {
             ["fakeUnlock"] = [===[
