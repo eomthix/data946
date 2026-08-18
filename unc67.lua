@@ -26,8 +26,6 @@ return {
 ["show_download_menu"] = "OFF",
 ["script_download"] = "https://drive.google.com/file/d/1G41bS4Ak8VgjGIckz4aJHL9p_cZpcOZ2/view?usp=drive_link",
 
-["total_users"] = "14389",
-
 ["status"] = "ON",
     ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
     ["status_copy"] = "ON",
