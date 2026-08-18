@@ -299,17 +299,16 @@ return {
     [2] = {
         ["name"] = "Force Boss (Emu)",
         ["edits"] = {
-            { "0x142524E", "F30F1080FCFFFFFFr" },
-            { "0x142524E", "F30F1080FCFFFFFFr" }
+            { "0x1425320", "F30F1080FCFFFFFFr" },
+            { "0x1425320", "F30F1080FCFFFFFFr" }
         }
     },
     [3] = {
         ["name"] = "Auto Win (Emu)",
         ["edits"] = {
-            { "0xFE184E",  "6A028F44240490r" },
-            { "0xFE1B15",  "C744240C0000A0C0909090r" },
-            { "0x19D8BE0", "9090r" },
-            { "0x1CB0D5D", "90909090r" },
+            { "0xFE18FA",  "6A028F44240490r" },
+            { "0xFE1BC1",  "C744240C0000A0C0909090r" },
+            { "0x1CB107D", "90909090r" },
             { "0x220C0B8", "00000000r" }
         }
     },
