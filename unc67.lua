@@ -89,6 +89,261 @@ return {
     ["text_copy_12"] = "12",
 
 ["versions"] = {
+["1.73.6"] = {
+        ["version_status"] = "ON",
+        ["download_link"] = "https://www.mediafire.com/file/h73zd3gvfjk4aaq/Hill+Climb+Racing+2+1.73.5.apks/file",
+        ["meta"] = { ["version"] = "1.73.5" },
+        ["status"] = {
+            ["main_status"] = "ON",
+            ["main_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["main_copy"] = "ON",
+            ["text_copy"] = "0",
+ 
+            ["fake_unlock_arm8"] = "ON",
+            ["fake_unlock_arm8_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["fake_unlock_arm8_copy"] = "OFF",
+            ["text_copy_2"] = "2",
+ 
+            ["fake_unlock_x64"] = "ON",
+            ["fake_unlock_x64_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["fake_unlock_x64_copy"] = "ON",
+            ["text_copy_3"] = "3",
+ 
+            ["fake_vip_arm8"] = "ON",
+            ["fake_vip_arm8_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["fake_vip_arm8_copy"] = "OFF",
+            ["text_copy_4"] = "4",
+ 
+            ["fake_vip_x64"] = "ON",
+            ["fake_vip_x64_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["fake_vip_x64_copy"] = "OFF",
+            ["text_copy_5"] = "5",
+ 
+            ["max_tunes"] = "ON",
+            ["max_tunes_msg"] = "❗ Max All Car Tunes is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["max_tunes_copy"] = "OFF",
+            ["text_copy_6"] = "6",
+ 
+            ["unlock_cars"] = "ON",
+            ["unlock_cars_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["unlock_cars_copy"] = "OFF",
+            ["text_copy_7"] = "7",
+ 
+            ["max_masteries"] = "ON",
+            ["max_masteries_msg"] = "❗ Max All Masteries is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["max_masteries_copy"] = "OFF",
+            ["text_copy_8"] = "8",
+ 
+            ["remove_mastery_time"] = "ON",
+            ["remove_mastery_time_msg"] = "❗ Remove Mastery Time is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["remove_mastery_time_copy"] = "OFF",
+            ["text_copy_9"] = "9",
+ 
+            ["max_parts"] = "ON",
+            ["max_parts_msg"] = "❗ Max All Parts is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["max_parts_copy"] = "OFF",
+            ["text_copy_10"] = "10",
+ 
+            ["unlimited_tasks"] = "ON",
+            ["unlimited_tasks_msg"] = "❗ Unlimited Tasks is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+            ["unlimited_tasks_copy"] = "OFF",
+            ["text_copy_11"] = "11",
+ 
+            ["no_locked_mastery"] = "ON",
+            ["no_locked_mastery_msg"] = "❗ There is no Vehicle with a locked Mastery right now!",
+            ["no_locked_mastery_copy"] = "OFF",
+            ["text_copy_12"] = "12",
+ 
+            ["auto_arm8_enabled"] = true,
+            ["auto_emu_enabled"] = false,
+            ["force_arm8_enabled"] = true,
+            ["force_emu_enabled"] = true,
+            ["auto_arm8_msg"] = "",
+            ["auto_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Autowin Emulator! Please use 1.73.3 for Autowin on Emulator!",
+            ["force_arm8_msg"] = "",
+            ["force_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Force Boss Emulator! Please use 1.73.3 for Force Boss on Emulator!"
+        },
+        ["offsets"] = {
+            ["mastery_phone"] = 0x2006918, --1.73.5
+            ["mastery_emu"] = 0x20611C8, --1.73.5
+            ["parts_phone"] = 0x2008758, --1.73.5
+            ["parts_emu"] = 0x2063008, --1.73.5
+            ["cars_phone"] = 0x2006B28, --1.73.5
+            ["cars_emu"] = 0x20613D8, --1.73.5
+            ["tunes_lib_arm8"] = 0x2005688, --1.73.5
+            ["tunes_lib_x64"] = 0x205FF38, --1.73.5
+            ["unl_cups_phone"] = 0x2008D88, --1.73.5
+            ["unl_cups_emu"] = 0x2063638, --1.73.5
+            ["fake_unlock_phone"] = 0x14CB1E8, --1.73.5
+            ["fake_unlock_emu"] = 0x14150EE, --1.73.5
+            ["fake_vip_phone"] = 0x14CF3F0, --1.73.5
+            ["fake_vip_emu"] = 0x14194E8, --1.73.5
+            ["dist_phone"] = 0x200BC58, --1.73.5
+            ["dist_emu"] = 0x2066508, --1.73.5
+            ["detach_phone"] = 0x1A4F6C8, --1.73.5
+            ["detach_emu"] = 0x19DA049, --1.73.5
+			["fuel_phone"] = 0x1A4E44C, --1.73.5
+		    ["fuel_emu"] = 0x19D8CBB --1.73.5
+        },
+        ["logic"] = {
+            ["fakeUnlock"] = [===[
+                local PATCH_VALUE = "20008052r" 
+                if LIB_BASE == 0 or LIB_BASE == nil then gg.alert("❌ Couldn't find Lib!") return end
+                if CNF == nil or CNF.offsets == nil then gg.alert("❌ Version Data not loaded correctly!") return end
+                local function writeBytes(addr, bytes)
+                    local edits = {}
+                    for i = 1, #bytes do edits[i] = {address = addr + (i - 1), flags = gg.TYPE_BYTE, value = bytes[i]} end
+                    gg.setValues(edits)
+                end
+                local function toggleHack(enable)
+                    local targetAddr = LIB_BASE + CNF.offsets.fake_unlock_phone
+                    if enable then
+                        if originalValueARM == nil then
+                            local res = gg.getValues({{address = targetAddr, flags = gg.TYPE_DWORD}})
+                            if res and res[1] then originalValueARM = res[1].value end
+                        end
+                        gg.setValues({{address = targetAddr, flags = gg.TYPE_DWORD, value = PATCH_VALUE}})
+                        gg.alert("✅ Enabled Fake Unlock")
+                    else
+                        if originalValueARM ~= nil then
+                            gg.setValues({{address = targetAddr, flags = gg.TYPE_DWORD, value = originalValueARM}})
+                            gg.alert("❌ Disabled Fake Unlock")
+                        else
+                            gg.alert("❌ Nothing to restore!")
+                        end
+                    end
+                end
+                if archType == 2 then
+                    local choice = gg.choice({"✅ Enable Fake Unlock", "❌ Disable Fake Unlock", "🔙 Return"}, nil, "Fake Unlock for x86_64")
+                    if not choice or choice == 3 then return menu1() end
+                    local startAddr = LIB_BASE + CNF.offsets.fake_unlock_emu
+                    local patchBytes = {0xB8, 0x01, 0x00, 0x00, 0x00, 0xC3}
+                    if choice == 1 then
+                        if fakeUnlockOriginal == nil then
+                            fakeUnlockOriginal = {}
+                            local readList = {}
+                            for i = 1, #patchBytes do table.insert(readList, {address = startAddr + (i - 1), flags = gg.TYPE_BYTE}) end
+                            local values = gg.getValues(readList)
+                            for i = 1, #values do fakeUnlockOriginal[i] = values[i].value end
+                        end
+                        writeBytes(startAddr, patchBytes)
+                        gg.alert("✅ Fake Unlock Enabled!")
+                    elseif choice == 2 then
+                        if fakeUnlockOriginal ~= nil then writeBytes(startAddr, fakeUnlockOriginal) gg.alert("❌ Fake Unlock Disabled!") else gg.alert("❌ Nothing to restore!") end
+                    end
+                elseif archType == 1 then
+                    local menu = gg.choice({"✅ Enable Fake Unlock", "❌ Disable Fake Unlock", "🔙 Return"}, nil, "Fake Unlock for ARMV8")
+                    if menu == nil or menu == 3 then return menu1() end
+                    if menu == 1 then toggleHack(true) elseif menu == 2 then toggleHack(false) end
+                else
+                    gg.alert("❌ Unsupported Architecture!")
+                end
+            ]===],
+            ["fakeVIP"] = [===[
+                if LIB_BASE == 0 or LIB_BASE == nil then gg.alert("❌ Couldn't find Lib!") return end
+                if not CNF or not CNF.offsets then gg.alert("❌ Configuration not loaded correctly!") return end
+                local PATCH_VALUE = "28008052r" 
+                local function writeBytes(addr, bytes)
+                    local edits = {}
+                    for i = 1, #bytes do edits[i] = {address = addr + (i - 1), flags = gg.TYPE_BYTE, value = bytes[i]} end
+                    gg.setValues(edits)
+                end
+                local function toggleVip(enable)
+                    local targetAddr = LIB_BASE + CNF.offsets.fake_vip_phone
+                    if enable then
+                        if originalVipARM == nil then
+                            local val = gg.getValues({{address = targetAddr, flags = gg.TYPE_DWORD}})
+                            if val and val[1] then originalVipARM = val[1].value end
+                        end
+                        gg.setValues({{address = targetAddr, flags = gg.TYPE_DWORD, value = PATCH_VALUE}})
+                        gg.alert("✅ Enabled Fake VIP")
+                    else
+                        if originalVipARM ~= nil then
+                            gg.setValues({{address = targetAddr, flags = gg.TYPE_DWORD, value = originalVipARM}})
+                            gg.alert("❌ Disabled Fake VIP")
+                        else
+                            gg.alert("❌ Nothing to restore!")
+                        end
+                    end
+                end
+                if archType == 2 then
+                    local choice = gg.choice({"✅ Enable Fake VIP", "❌ Disable Fake VIP", "🔙 Return"}, nil, "Fake VIP for x86_64")
+                    if choice == nil or choice == 3 then return menu1() end
+                    local startAddr = LIB_BASE + CNF.offsets.fake_vip_emu
+                    local patchBytes = {0xB0, 0x01, 0xC3}
+                    if choice == 1 then
+                        if fakeVipOriginal == nil then
+                            fakeVipOriginal = {}
+                            local readList = {}
+                            for i = 1, #patchBytes do table.insert(readList, {address = startAddr + (i - 1), flags = gg.TYPE_BYTE}) end
+                            local values = gg.getValues(readList)
+                            for i = 1, #values do fakeVipOriginal[i] = values[i].value end
+                        end
+                        writeBytes(startAddr, patchBytes)
+                        gg.alert("✅ Fake VIP Enabled!")
+                    elseif choice == 2 then
+                        if fakeVipOriginal ~= nil then writeBytes(startAddr, fakeVipOriginal) gg.alert("❌ Fake VIP Disabled!") else gg.alert("❌ Nothing to restore!") end
+                    end
+                elseif archType == 1 then
+                    local menu = gg.choice({"✅ Enable Fake VIP", "❌ Disable Fake VIP", "🔙 Return"}, nil, "Fake VIP for ARMV8")
+                    if menu == nil or menu == 3 then return menu1() end
+                    if menu == 1 then toggleVip(true) elseif menu == 2 then toggleVip(false) end
+                else
+                    gg.alert("❌ Unsupported Architecture!")
+                end
+            ]===]
+        },
+["PATCHES"] = {
+    [1] = {
+        ["name"] = "Force Boss",
+        ["edits"] = {
+            { "0x14BF06C", "00C15FBCr" },
+            { "0x14DAFC8", "00C15FBCr" }
+        }
+    },
+    [2] = {
+        ["name"] = "Force Boss (Emu)",
+        ["edits"] = {
+            { "0x142524E", "F30F1080FCFFFFFFr" },
+            { "0x142524E", "F30F1080FCFFFFFFr" }
+        }
+    },
+    [3] = {
+        ["name"] = "Auto Win (Emu)",
+        ["edits"] = {
+            { "0xFE184E",  "6A028F44240490r" },
+            { "0xFE1B15",  "C744240C0000A0C0909090r" },
+            { "0x19D8BE0", "9090r" },
+            { "0x1CB0D5D", "90909090r" },
+            { "0x220C0B8", "00000000r" }
+        }
+    },
+    [4] = {
+        ["name"] = "Auto Win",
+        ["edits"] = {
+            { "0x10AEEA4", "55008052r" },
+            { "0x10AF0C0", "0990321Er" },
+            { "0x1A4E480", "00008052r" },
+            { "0x1A4E484", "605608B9r" },
+            { "0x1CC55A8", "080108CAr" },
+            { "0x21B1C78", "00000000r" }
+        }
+    },
+    [5] = {
+        ["name"] = "Free Upgrades",
+        ["edits"] = {
+            { "0xE8D060", "00103E1Er" },
+            { "0xE8D07C", "00103E1Er" }
+        }
+    },
+    [6] = {
+        ["name"] = "Free Upgrades (Emu)",
+        ["edits"] = {
+            { "0xDBBBFA", "F30F5CC0F30F5CC19090r" }
+        }
+      }
+   }
+},
 ["1.73.5"] = {
         ["version_status"] = "ON",
         ["download_link"] = "https://www.mediafire.com/file/h73zd3gvfjk4aaq/Hill+Climb+Racing+2+1.73.5.apks/file",
