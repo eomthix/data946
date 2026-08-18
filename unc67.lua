@@ -180,7 +180,7 @@ return {
             ["detach_phone"] = 0x1A4F6C8, --1.73.5
             ["detach_emu"] = 0x19DA24D, --1.73.5
 			["fuel_phone"] = 0x1A4E44C, --1.73.5
-		    ["fuel_emu"] = 0x19D8CBB --1.73.5
+		    ["fuel_emu"] = 0x19D8EBF --1.73.5
         },
         ["logic"] = {
             ["fakeUnlock"] = [===[
