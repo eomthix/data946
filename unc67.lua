@@ -175,11 +175,11 @@ return {
             ["unl_cups_phone"] = 0x2008D88, --1.73.5
             ["unl_cups_emu"] = 0x2063638, --1.73.5
             ["fake_unlock_phone"] = 0x14CB1E8, --1.73.5
-            ["fake_unlock_emu"] = 0x14195B7, --1.73.5
+            ["fake_unlock_emu"] = 0x14151C0, --1.73.5
             ["fake_vip_phone"] = 0x14CF3F0, --1.73.5
-            ["fake_vip_emu"] = 0x14194E8, --1.73.5
-            ["dist_phone"] = 0x200BC58, --1.73.5
-            ["dist_emu"] = 0x2066508, --1.73.5
+            ["fake_vip_emu"] = 0x14195B8, --1.73.6
+            ["dist_phone"] = 0x200BC58, --1.73.6
+            ["dist_emu"] = 0x2066508, --1.73.6
             ["detach_phone"] = 0x1A4F6C8, --1.73.5
             ["detach_emu"] = 0x19DA049, --1.73.5
 			["fuel_phone"] = 0x1A4E44C, --1.73.5
