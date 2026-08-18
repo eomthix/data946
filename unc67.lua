@@ -152,13 +152,13 @@ return {
             ["text_copy_12"] = "12",
  
             ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = false,
+            ["auto_emu_enabled"] = true,
             ["force_arm8_enabled"] = true,
             ["force_emu_enabled"] = true,
             ["auto_arm8_msg"] = "",
-            ["auto_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Autowin Emulator! Please use 1.73.3 for Autowin on Emulator!",
+            ["auto_emu_msg"] = "",
             ["force_arm8_msg"] = "",
-            ["force_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Force Boss Emulator! Please use 1.73.3 for Force Boss on Emulator!"
+            ["force_emu_msg"] = ""
         },
         ["offsets"] = {
             ["mastery_phone"] = 0x2006918, --1.73.6
@@ -560,10 +560,9 @@ return {
     [3] = {
         ["name"] = "Auto Win (Emu)",
         ["edits"] = {
-            { "0xFE184E",  "6A028F44240490r" },
-            { "0xFE1B15",  "C744240C0000A0C0909090r" },
-            { "0x19D8BE0", "9090r" },
-            { "0x1CB0D5D", "90909090r" },
+            { "0xFE185C",  "6A028F44240490r" },
+            { "0xFE1B23",  "C744240C0000A0C0909090r" },
+            { "0x1CB0E7D", "90909090r" },
             { "0x220C0B8", "00000000r" }
         }
     },
