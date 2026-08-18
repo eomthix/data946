@@ -161,26 +161,24 @@ return {
             ["force_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Force Boss Emulator! Please use 1.73.3 for Force Boss on Emulator!"
         },
         ["offsets"] = {
-            ["mastery_phone"] = 0x2006918, --1.73.5
-            ["mastery_emu"] = 0x20611C8, --1.73.5
-            ["parts_phone"] = 0x2008758, --1.73.5
-            ["parts_emu"] = 0x2063008, --1.73.5
-            ["cars_phone"] = 0x2006B28, --1.73.5
-            ["cars_emu"] = 0x20613D8, --1.73.5
-            ["tunes_lib_arm8"] = 0x2005688, --1.73.5
-            ["tunes_lib_x64"] = 0x205FF38, --1.73.5
-            ["unl_cups_phone"] = 0x2008D88, --1.73.5
-            ["unl_cups_emu"] = 0x2063638, --1.73.5
+            ["mastery_phone"] = 0x2006918, --1.73.6
+            ["mastery_emu"] = 0x20611C8, --1.73.6
+            ["parts_phone"] = 0x2008758, --1.73.6
+            ["parts_emu"] = 0x2063008, --1.73.6
+            ["tunes_lib_arm8"] = 0x2005688, --1.73.6
+            ["tunes_lib_x64"] = 0x205FF38, --1.73.6
+            ["unl_cups_phone"] = 0x2008D88, --1.73.6
+            ["unl_cups_emu"] = 0x2063638, --1.73.6
             ["fake_unlock_phone"] = 0x14CB1E8, --1.73.5
-            ["fake_unlock_emu"] = 0x14151C0, --1.73.5
+            ["fake_unlock_emu"] = 0x14151C0, --1.73.6
             ["fake_vip_phone"] = 0x14CF3F0, --1.73.5
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
             ["dist_phone"] = 0x200BC58, --1.73.6
             ["dist_emu"] = 0x2066508, --1.73.6
             ["detach_phone"] = 0x1A4F6C8, --1.73.5
-            ["detach_emu"] = 0x19DA24D, --1.73.5
+            ["detach_emu"] = 0x19DA24D, --1.73.6
 			["fuel_phone"] = 0x1A4E44C, --1.73.5
-		    ["fuel_emu"] = 0x19D8EBF --1.73.5
+		    ["fuel_emu"] = 0x19D8EBF --1.73.6
         },
         ["logic"] = {
             ["fakeUnlock"] = [===[
