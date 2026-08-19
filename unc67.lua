@@ -292,8 +292,8 @@ return {
     [1] = {
         ["name"] = "Force Boss",
         ["edits"] = {
-            { "0x14BF06C", "00C15FBCr" },
-            { "0x14DAFC8", "00C15FBCr" }
+           { "0x14BF044", "00C15FBCr" }, 
+		   { "0x14DAFA0", "00C15FBCr" }
         }
     },
     [2] = {
