@@ -175,9 +175,9 @@ return {
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
             ["dist_phone"] = 0x200BC58, --1.73.6
             ["dist_emu"] = 0x2066508, --1.73.6
-            ["detach_phone"] = 0x1A4F6C8, --1.73.5
+            ["detach_phone"] = 0x1A4FC8, --1.73.6
             ["detach_emu"] = 0x19DA24D, --1.73.6
-			["fuel_phone"] = 0x1A4E44C, --1.73.5
+			["fuel_phone"] = 0x1A4E544, --1.73.6
 		    ["fuel_emu"] = 0x19D8EBF --1.73.6
         },
         ["logic"] = {
