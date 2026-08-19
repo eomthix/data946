@@ -404,21 +404,19 @@ return {
             ["text_copy_12"] = "12",
  
             ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = false,
+            ["auto_emu_enabled"] = true,
             ["force_arm8_enabled"] = true,
             ["force_emu_enabled"] = true,
             ["auto_arm8_msg"] = "",
-            ["auto_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Autowin Emulator! Please use 1.73.3 for Autowin on Emulator!",
+            ["auto_emu_msg"] = "",
             ["force_arm8_msg"] = "",
-            ["force_emu_msg"] = "❗ I dont have the offsets for 1.73.5 Force Boss Emulator! Please use 1.73.3 for Force Boss on Emulator!"
+            ["force_emu_msg"] = ""
         },
         ["offsets"] = {
             ["mastery_phone"] = 0x2006918, --1.73.5
             ["mastery_emu"] = 0x20611C8, --1.73.5
             ["parts_phone"] = 0x2008758, --1.73.5
             ["parts_emu"] = 0x2063008, --1.73.5
-            ["cars_phone"] = 0x2006B28, --1.73.5
-            ["cars_emu"] = 0x20613D8, --1.73.5
             ["tunes_lib_arm8"] = 0x2005688, --1.73.5
             ["tunes_lib_x64"] = 0x205FF38, --1.73.5
             ["unl_cups_phone"] = 0x2008D88, --1.73.5
