@@ -1983,7 +1983,7 @@ return {
             "TANK", "LOWRIDER", "SNOWMOBILE", "MONOWHEEL", "BEAST", "RALLY CAR", "FORMULA",
             "MUSCLE CAR", "RACING TRUCK", "HOT ROD", "CC-EV", "SUPERBIKE", "SUPERCAR",
             "MOONLANDER", "ROCK BOUNCER", "HOVERBIKE", "RAIDER", "GLIDER", "BOLT", "ATV",
-            "OFFROADER", "STOCKER"
+            "OFFROADER", "STOCKER", "HAVOC"
         },
         ["gameStatusTunesParts"] = {
 [1] = {
