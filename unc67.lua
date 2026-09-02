@@ -4575,11 +4575,11 @@ Echo,
           }
 },
         ["vehicles"] = {
-            ["UnlockGameStatusVehicles"] = { "SCOOTER", "BUS", "HILL CLIMBER MK 2", "TRACTOR", "MOTOCROSS", "DUNE BUGGY", "SPORTS CAR", "MONSTER TRUCK", "ROTATOR", "SUPER DIESEL", "CHOPPER", "TANK", "LOWRIDER", "SNOWMOBILE", "MONOWHEEL", "BEAST", "RALLY CAR", "FORMULA", "MUSCLE CAR", "RACING TRUCK", "HOT ROD", "CC-EV", "SUPERBIKE", "SUPERCAR", "MOONLANDER", "ROCK BOUNCER", "HOVERBIKE", "RAIDER", "GLIDER", "BOLT", "ATV", "OFFROADER", "STOCKER" },
+            ["UnlockGameStatusVehicles"] = { "SCOOTER", "BUS", "HILL CLIMBER MK 2", "TRACTOR", "MOTOCROSS", "DUNE BUGGY", "SPORTS CAR", "MONSTER TRUCK", "ROTATOR", "SUPER DIESEL", "CHOPPER", "TANK", "LOWRIDER", "SNOWMOBILE", "MONOWHEEL", "BEAST", "RALLY CAR", "FORMULA", "MUSCLE CAR", "RACING TRUCK", "HOT ROD", "CC-EV", "SUPERBIKE", "SUPERCAR", "MOONLANDER", "ROCK BOUNCER", "HOVERBIKE", "RAIDER", "GLIDER", "BOLT", "ATV", "OFFROADER", "STOCKER", "HAVOC" },
             ["UnlockCupsVehicles"] = { "HILL CLIMBER MK 2", "SPORTS CAR", "DUNE BUGGY", "SUPER DIESEL", "SUPERBIKE", "SUPERCAR", "RALLY CAR", "LOWRIDER", "BEAST", "HOT ROD", "RACING TRUCK", "FORMULA", "MUSCLE CAR" },
             ["UnlockAdventureVehicles"] = { "MONSTER TRUCK", "ROTATOR", "CHOPPER", "TANK", "CC-EV" },
             ["UnlockEventVehicles"] = { "ATV", "OFFROADER", "STOCKER", "BUS", "MOONLANDER", "HOVERBIKE", "ROCK BOUNCER", "RAIDER", "BOLT" },
             ["UnlockBluePrintVehicles"] = { "SCOOTER", "MOTOCROSS", "TRACTOR", "SNOWMOBILE", "MONOWHEEL" },
-            ["UnlockMasteryVehicles"] = { "OFFROADER", "STOCKER" }
+            ["UnlockMasteryVehicles"] = { "STOCKER", "HAVOC" }
         }
     }
