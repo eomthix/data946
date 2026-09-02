@@ -498,11 +498,17 @@ return {
         return
     end
 
+				local function writeBytes(addr, bytes)
+                    local edits = {}
+                    for i = 1, #bytes do edits[i] = {address = addr + (i - 1), flags = gg.TYPE_BYTE, value = bytes[i]} end
+                    gg.setValues(edits)
+			end
+
     if archType == 1 then
         local choice = gg.choice(
             {"✅ Enable Fake VIP", "❌ Disable Fake VIP", "🔙 Return"},
             nil,
-            "Fake VIP for x86_64"
+            "Fake VIP for ARMV8"
         )
 
         if choice == nil or choice == 3 then
