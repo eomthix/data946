@@ -490,7 +490,7 @@ return {
             ["fakeVIP"] = [===[
                 if LIB_BASE == 0 or LIB_BASE == nil then gg.alert("❌ Couldn't find Lib!") return end
                 if not CNF or not CNF.offsets then gg.alert("❌ Configuration not loaded correctly!") return end
-                local PATCH_VALUE = "28008052r" 
+                local PATCH_VALUE = "200080D2C0035FD6r" 
                 local function writeBytes(addr, bytes)
                     local edits = {}
                     for i = 1, #bytes do edits[i] = {address = addr + (i - 1), flags = gg.TYPE_BYTE, value = bytes[i]} end
