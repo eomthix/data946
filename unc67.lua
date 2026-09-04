@@ -102,17 +102,17 @@ return {
     ["text_copy_2"] = "2",
 
     ["fake_unlock_x64"] = "OFF",
-    ["fake_unlock_x64_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["fake_unlock_x64_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
     ["fake_unlock_x64_copy"] = "OFF",
     ["text_copy_3"] = "3",
 
     ["fake_vip_arm8"] = "ON",
-    ["fake_vip_arm8_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["fake_vip_arm8_msg"] = "",
     ["fake_vip_arm8_copy"] = "OFF",
     ["text_copy_4"] = "4",
 
     ["fake_vip_x64"] = "OFF",
-    ["fake_vip_x64_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["fake_vip_x64_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
     ["fake_vip_x64_copy"] = "OFF",
     ["text_copy_5"] = "5",
 
@@ -146,19 +146,19 @@ return {
     ["unlimited_tasks_copy"] = "OFF",
     ["text_copy_11"] = "11",
 
-    ["no_locked_mastery"] = "ON",
-    ["no_locked_mastery_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["no_locked_mastery"] = "OFF",
+    ["no_locked_mastery_msg"] = "i dont know how to unlock the new mastery yet please wait",
     ["no_locked_mastery_copy"] = "OFF",
     ["text_copy_12"] = "12",
 
     ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = true,
+            ["auto_emu_enabled"] = false,
             ["force_arm8_enabled"] = true,
-            ["force_emu_enabled"] = true,
+            ["force_emu_enabled"] = false,
             ["auto_arm8_msg"] = "",
-            ["auto_emu_msg"] = "",
+            ["auto_emu_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
             ["force_arm8_msg"] = "",
-            ["force_emu_msg"] = ""
+            ["force_emu_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6"
     
         },
         ["offsets"] = {
@@ -417,7 +417,7 @@ return {
     ["text_copy_2"] = "2",
 
     ["fake_unlock_x64"] = "OFF",
-    ["fake_unlock_x64_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["fake_unlock_x64_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
     ["fake_unlock_x64_copy"] = "OFF",
     ["text_copy_3"] = "3",
 
@@ -427,7 +427,7 @@ return {
     ["text_copy_4"] = "4",
 
     ["fake_vip_x64"] = "OFF",
-    ["fake_vip_x64_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["fake_vip_x64_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
     ["fake_vip_x64_copy"] = "OFF",
     ["text_copy_5"] = "5",
 
@@ -461,19 +461,19 @@ return {
     ["unlimited_tasks_copy"] = "OFF",
     ["text_copy_11"] = "11",
 
-    ["no_locked_mastery"] = "ON",
-    ["no_locked_mastery_msg"] = "1.74.0 update im on vacation i cant update offsets",
+    ["no_locked_mastery"] = "OFF",
+    ["no_locked_mastery_msg"] = "i dont know how to unlock the new mastery yet please wait",
     ["no_locked_mastery_copy"] = "OFF",
     ["text_copy_12"] = "12",
 
     ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = true,
+            ["auto_emu_enabled"] = false,
             ["force_arm8_enabled"] = true,
-            ["force_emu_enabled"] = true,
+            ["force_emu_enabled"] = false,
             ["auto_arm8_msg"] = "",
-            ["auto_emu_msg"] = "",
+            ["auto_emu_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
             ["force_arm8_msg"] = "",
-            ["force_emu_msg"] = ""
+            ["force_emu_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6"
     
         },
         ["offsets"] = {
