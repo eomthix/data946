@@ -172,7 +172,7 @@ return {
             ["unl_cups_emu"] = 0x2063638, --1.73.6
             ["fake_unlock_phone"] = 0x14FC5A8, --1.74.0
             ["fake_unlock_emu"] = 0x14151C0, --1.73.6
-            ["fake_vip_phone"] = 0x15009BC, --1.74.0
+            ["fake_vip_phone"] = 0x15322F0, --1.74.1
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
             ["dist_phone"] = 0x20515A8, --1.74.1
             ["dist_emu"] = 0x2066508, --1.73.6
