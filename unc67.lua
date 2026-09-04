@@ -293,8 +293,8 @@ return {
     [1] = {
         ["name"] = "Force Boss",
         ["edits"] = {
-           { "0x14BF044", "00C15FBCr" }, 
-		   { "0x14DAFA0", "00C15FBCr" }
+           { "0x14F00E8", "00C15FBCr" }, 
+		   { "0x150C690", "00C15FBCr" }
         }
     },
     [2] = {
@@ -327,8 +327,8 @@ return {
     [5] = {
         ["name"] = "Free Upgrades",
         ["edits"] = {
-            { "0xE8CF7C", "0090641Er" }, 
-            { "0xE8CF98", "0090641Er" }
+            { "0xEA6E64", "0090641Er" }, 
+            { "0xEA6E80", "0090641Er" }
         }
     },
     [6] = {
