@@ -327,8 +327,8 @@ return {
     [5] = {
         ["name"] = "Free Upgrades",
         ["edits"] = {
-            { "0xEAA864", "0090641Er" }, 
-            { "0xEAA880", "0090641Er" }
+            { "0xEAA7D0", "0090641Er" }, 
+            { "0xEAA7EC", "0090641Er" }
         }
     },
     [6] = {
