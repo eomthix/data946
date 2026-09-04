@@ -235,6 +235,121 @@ return {
                     gg.alert("❌ Unsupported Architecture!")
                 end
             ]===],
+			["fakeVIP"] = [===[
+    if LIB_BASE == 0 or LIB_BASE == nil then
+        gg.alert("❌ Couldn't find Lib!")
+        return
+    end
+
+    if not CNF or not CNF.offsets then
+        gg.alert("❌ Configuration not loaded correctly!")
+        return
+    end
+
+				local function writeBytes(addr, bytes)
+                    local edits = {}
+                    for i = 1, #bytes do edits[i] = {address = addr + (i - 1), flags = gg.TYPE_BYTE, value = bytes[i]} end
+                    gg.setValues(edits)
+			end
+
+    if archType == 1 then
+        local choice = gg.choice(
+            {"✅ Enable Fake VIP", "❌ Disable Fake VIP", "🔙 Return"},
+            nil,
+            "Fake VIP for ARMV8"
+        )
+
+        if choice == nil or choice == 3 then
+            return menu1()
+        end
+
+        local startAddr = LIB_BASE + CNF.offsets.fake_vip_phone
+        local patchBytes = {
+            0x20, 0x00, 0x80, 0xD2,
+            0xC0, 0x03, 0x5F, 0xD6
+        }
+
+        if choice == 1 then
+            if fakeVipOriginal == nil then
+                fakeVipOriginal = {}
+
+                local readList = {}
+
+                for i = 1, #patchBytes do
+                    table.insert(readList, {
+                        address = startAddr + (i - 1),
+                        flags = gg.TYPE_BYTE
+                    })
+                end
+
+                local values = gg.getValues(readList)
+
+                for i = 1, #values do
+                    fakeVipOriginal[i] = values[i].value
+                end
+            end
+
+            writeBytes(startAddr, patchBytes)
+            gg.alert("✅ Fake VIP Enabled!")
+
+        elseif choice == 2 then
+            if fakeVipOriginal ~= nil then
+                writeBytes(startAddr, fakeVipOriginal)
+                gg.alert("❌ Fake VIP Disabled!")
+            else
+                gg.alert("❌ Nothing to restore!")
+            end
+        end
+
+    elseif archType == 2 then
+        local choice = gg.choice(
+            {"✅ Enable Fake VIP", "❌ Disable Fake VIP", "🔙 Return"},
+            nil,
+            "Fake VIP for x86_64"
+        )
+
+        if choice == nil or choice == 3 then
+            return menu1()
+        end
+
+        local startAddr = LIB_BASE + CNF.offsets.fake_vip_emu
+        local patchBytes = {
+            0xB0, 0x01, 0xC3
+        }
+
+        if choice == 1 then
+            if fakeVipOriginal == nil then
+                fakeVipOriginal = {}
+
+                local readList = {}
+
+                for i = 1, #patchBytes do
+                    table.insert(readList, {
+                        address = startAddr + (i - 1),
+                        flags = gg.TYPE_BYTE
+                    })
+                end
+
+                local values = gg.getValues(readList)
+
+                for i = 1, #values do
+                    fakeVipOriginal[i] = values[i].value
+                end
+            end
+
+            writeBytes(startAddr, patchBytes)
+            gg.alert("✅ Fake VIP Enabled!")
+
+        elseif choice == 2 then
+            if fakeVipOriginal ~= nil then
+                writeBytes(startAddr, fakeVipOriginal)
+                gg.alert("❌ Fake VIP Disabled!")
+            else
+                gg.alert("❌ Nothing to restore!")
+            end
+        end
+    end
+]===]
         },
 ["PATCHES"] = {
     [1] = {
