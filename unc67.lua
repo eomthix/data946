@@ -162,19 +162,19 @@ return {
     
         },
         ["offsets"] = {
-            ["mastery_phone"] = 0x204C228, --1.73.6
+            ["mastery_phone"] = 0x204C238, --1.74.1
             ["mastery_emu"] = 0x20611C8, --1.73.6
-            ["parts_phone"] = 0x204E068, --1.74.0
+            ["parts_phone"] = 0x204E078, --1.74.1
             ["parts_emu"] = 0x2063008, --1.73.6
-            ["tunes_lib_arm8"] = 0x204AE38, --1.74.0
+            ["tunes_lib_arm8"] = 0x204AE48, --1.74.1
             ["tunes_lib_x64"] = 0x205FF38, --1.73.6
-            ["unl_cups_phone"] = 0x204E698, --1.74.0
+            ["unl_cups_phone"] = 0x204E708, --1.74.0
             ["unl_cups_emu"] = 0x2063638, --1.73.6
             ["fake_unlock_phone"] = 0x14FC5A8, --1.74.0
             ["fake_unlock_emu"] = 0x14151C0, --1.73.6
             ["fake_vip_phone"] = 0x15009BC, --1.74.0
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
-            ["dist_phone"] = 0x2051598, --1.74.0
+            ["dist_phone"] = 0x20515A8, --1.74.1
             ["dist_emu"] = 0x2066508, --1.73.6
             ["detach_phone"] = 0x1A902F0, --1.74.0
             ["detach_emu"] = 0x19DA24D, --1.73.6
