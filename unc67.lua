@@ -164,7 +164,7 @@ return {
         ["offsets"] = {
             ["mastery_phone"] = 0x2006918, --1.73.6
             ["mastery_emu"] = 0x20611C8, --1.73.6
-            ["parts_phone"] = 0x2008758, --1.73.6
+            ["parts_phone"] = 0x204E068, --1.73.6
             ["parts_emu"] = 0x2063008, --1.73.6
             ["tunes_lib_arm8"] = 0x204AE38, --1.74.0
             ["tunes_lib_x64"] = 0x205FF38, --1.73.6
