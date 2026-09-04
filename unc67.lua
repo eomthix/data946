@@ -174,9 +174,9 @@ return {
             ["fake_unlock_emu"] = 0x14151C0, --1.73.6
             ["fake_vip_phone"] = 0x15009BC, --1.74.0
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
-            ["dist_phone"] = 0x200BC58, --1.73.6
+            ["dist_phone"] = 0x2051598, --1.74.0
             ["dist_emu"] = 0x2066508, --1.73.6
-            ["detach_phone"] = 0x1A4F7C0, --1.73.6
+            ["detach_phone"] = 0x1A902F0, --1.74.0
             ["detach_emu"] = 0x19DA24D, --1.73.6
 			["fuel_phone"] = 0x1A4E544, --1.74.0
 		    ["fuel_emu"] = 0x19D8EBF --1.73.6
