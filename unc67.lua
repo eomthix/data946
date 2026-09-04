@@ -91,12 +91,12 @@ return {
         ["download_link"] = "https://www.mediafire.com/file/h73zd3gvfjk4aaq/Hill+Climb+Racing+2+1.73.5.apks/file",
         ["meta"] = { ["version"] = "1.74.0" },
 ["status"] = {
-    ["main_status"] = "OFF",
+    ["main_status"] = "ON",
     ["main_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["main_copy"] = "OFF",
     ["text_copy"] = "0",
 
-    ["fake_unlock_arm8"] = "OFF",
+    ["fake_unlock_arm8"] = "ON",
     ["fake_unlock_arm8_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["fake_unlock_arm8_copy"] = "OFF",
     ["text_copy_2"] = "2",
@@ -106,7 +106,7 @@ return {
     ["fake_unlock_x64_copy"] = "OFF",
     ["text_copy_3"] = "3",
 
-    ["fake_vip_arm8"] = "OFF",
+    ["fake_vip_arm8"] = "ON",
     ["fake_vip_arm8_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["fake_vip_arm8_copy"] = "OFF",
     ["text_copy_4"] = "4",
@@ -116,37 +116,37 @@ return {
     ["fake_vip_x64_copy"] = "OFF",
     ["text_copy_5"] = "5",
 
-    ["max_tunes"] = "OFF",
+    ["max_tunes"] = "ON",
     ["max_tunes_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["max_tunes_copy"] = "OFF",
     ["text_copy_6"] = "6",
 
-    ["unlock_cars"] = "OFF",
+    ["unlock_cars"] = "ON",
     ["unlock_cars_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["unlock_cars_copy"] = "OFF",
     ["text_copy_7"] = "7",
 
-    ["max_masteries"] = "OFF",
+    ["max_masteries"] = "ON",
     ["max_masteries_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["max_masteries_copy"] = "OFF",
     ["text_copy_8"] = "8",
 
-    ["remove_mastery_time"] = "OFF",
+    ["remove_mastery_time"] = "ON",
     ["remove_mastery_time_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["remove_mastery_time_copy"] = "OFF",
     ["text_copy_9"] = "9",
 
-    ["max_parts"] = "OFF",
+    ["max_parts"] = "ON",
     ["max_parts_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["max_parts_copy"] = "OFF",
     ["text_copy_10"] = "10",
 
-    ["unlimited_tasks"] = "OFF",
+    ["unlimited_tasks"] = "ON",
     ["unlimited_tasks_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["unlimited_tasks_copy"] = "OFF",
     ["text_copy_11"] = "11",
 
-    ["no_locked_mastery"] = "OFF",
+    ["no_locked_mastery"] = "ON",
     ["no_locked_mastery_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["no_locked_mastery_copy"] = "OFF",
     ["text_copy_12"] = "12",
