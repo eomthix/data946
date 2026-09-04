@@ -152,13 +152,13 @@ return {
     ["text_copy_12"] = "12",
 
     ["auto_arm8_enabled"] = true,
-    ["auto_emu_enabled"] = false,
+    ["auto_emu_enabled"] = true,
     ["force_arm8_enabled"] = true,
-    ["force_emu_enabled"] = false,
-    ["auto_arm8_msg"] = "1.74.0 update im on vacation i cant update offsets",
-    ["auto_emu_msg"] = "1.74.0 update im on vacation i cant update offsets",
-    ["force_arm8_msg"] = "1.74.0 update im on vacation i cant update offsets",
-    ["force_emu_msg"] = "1.74.0 update im on vacation i cant update offsets"
+    ["force_emu_enabled"] = true,
+    ["auto_arm8_msg"] = "",
+    ["auto_emu_msg"] = "",
+    ["force_arm8_msg"] = "",
+    ["force_emu_msg"] = :"
     
         },
         ["offsets"] = {
