@@ -162,7 +162,7 @@ return {
     
         },
         ["offsets"] = {
-            ["mastery_phone"] = 0x2006918, --1.73.6
+            ["mastery_phone"] = 0x204C228, --1.73.6
             ["mastery_emu"] = 0x20611C8, --1.73.6
             ["parts_phone"] = 0x204E068, --1.74.0
             ["parts_emu"] = 0x2063008, --1.73.6
