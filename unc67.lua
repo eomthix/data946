@@ -151,9 +151,9 @@ return {
     ["no_locked_mastery_copy"] = "OFF",
     ["text_copy_12"] = "12",
 
-    ["auto_arm8_enabled"] = false,
+    ["auto_arm8_enabled"] = true,
     ["auto_emu_enabled"] = false,
-    ["force_arm8_enabled"] = false,
+    ["force_arm8_enabled"] = true,
     ["force_emu_enabled"] = false,
     ["auto_arm8_msg"] = "1.74.0 update im on vacation i cant update offsets",
     ["auto_emu_msg"] = "1.74.0 update im on vacation i cant update offsets",
@@ -316,12 +316,12 @@ return {
     [4] = {
         ["name"] = "Auto Win",
         ["edits"] = {
-            { "0x10AEE54", "55008052r" },
-            { "0x10AF070", "0990321Er" }, 
-		    { "0x1A4E578", "00008052r" }, 
-            { "0x1A4E57C", "605608B9r" },
-			{ "0x1CC56A0", "080108CAr" }, 
-            { "0x21B1C78", "00000000r" }
+            { "0x10D8FF0", "55008052r" }, --0x10D8FF0
+{ "0x10D920C", "0990321Er" }, --0x10D920C
+{ "0x1A8F09C", "00008052r" }, --0x1A8F09C
+{ "0x10BD4E0", "605608B9r" }, --0x10BD4E0
+{ "0x1D09BA4", "080108CAr" }, --0x1D09BA4
+{ "0x21B1C78", "00000000r" }
         }
     },
     [5] = {
