@@ -158,7 +158,7 @@ return {
     ["auto_arm8_msg"] = "",
     ["auto_emu_msg"] = "",
     ["force_arm8_msg"] = "",
-    ["force_emu_msg"] = :"
+    ["force_emu_msg"] = ""
     
         },
         ["offsets"] = {
