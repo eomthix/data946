@@ -176,7 +176,7 @@ return {
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
             ["dist_phone"] = 0x20515A8, --1.74.1
             ["dist_emu"] = 0x2066508, --1.73.6
-            ["detach_phone"] = 0x1A902F5C, --1.74.1
+            ["detach_phone"] = 0x1A9025C, --1.74.1
             ["detach_emu"] = 0x19DA24D, --1.73.6
 			["fuel_phone"] = 0x1A8EFD4, --1.74.1
 		    ["fuel_emu"] = 0x19D8EBF --1.73.6
