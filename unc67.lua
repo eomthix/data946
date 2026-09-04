@@ -168,7 +168,7 @@ return {
             ["parts_emu"] = 0x2063008, --1.73.6
             ["tunes_lib_arm8"] = 0x204AE48, --1.74.1
             ["tunes_lib_x64"] = 0x205FF38, --1.73.6
-            ["unl_cups_phone"] = 0x204E708, --1.74.0
+            ["unl_cups_phone"] = 0x204E6A8, --1.74.1
             ["unl_cups_emu"] = 0x2063638, --1.73.6
             ["fake_unlock_phone"] = 0x14FC5A8, --1.74.0
             ["fake_unlock_emu"] = 0x14151C0, --1.73.6
