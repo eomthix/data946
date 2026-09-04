@@ -294,7 +294,7 @@ return {
         ["name"] = "Force Boss",
         ["edits"] = {
            { "0x14F0054", "00C15FBCr" }, 
-		--   { "0x0", "00C15FBCr" } --crash
+		   { "0x150C5FC", "00C15FBCr" } 
         }
     },
     [2] = {
