@@ -170,15 +170,15 @@ return {
             ["tunes_lib_x64"] = 0x205FF38, --1.73.6
             ["unl_cups_phone"] = 0x204E698, --1.74.1
             ["unl_cups_emu"] = 0x2063638, --1.73.6
-            ["fake_unlock_phone"] = 0x14FC514, --1.74.1
+            ["fake_unlock_phone"] = 0x14FC644, --1.74.2
             ["fake_unlock_emu"] = 0x14151C0, --1.73.6
-            ["fake_vip_phone"] = 0x15008EC, --1.74.1
+            ["fake_vip_phone"] = 0x1500A1C, --1.74.2
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
             ["dist_phone"] = 0x2051598, --1.74.2
             ["dist_emu"] = 0x2066508, --1.73.6
-            ["detach_phone"] = 0x1A9025C, --1.74.1
+            ["detach_phone"] = 0x1A9038C, --1.74.2
             ["detach_emu"] = 0x19DA24D, --1.73.6
-			["fuel_phone"] = 0x1A8EFD4, --1.74.1
+			["fuel_phone"] = 0x1A8F104, --1.74.2
 		    ["fuel_emu"] = 0x19D8EBF --1.73.6
         },
 
