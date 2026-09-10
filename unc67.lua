@@ -22,7 +22,6 @@ local Echo = "ECHO"
 
 return {
 
-["show_download_menu"] = "OFF",
 ["script_download"] = "https://drive.google.com/file/d/1G41bS4Ak8VgjGIckz4aJHL9p_cZpcOZ2/view?usp=drive_link",
 
 ["status"] = "ON",
