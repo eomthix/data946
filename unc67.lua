@@ -151,9 +151,9 @@ return {
     ["text_copy_12"] = "12",
 
     ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = false,
+            ["auto_emu_enabled"] = true,
             ["force_arm8_enabled"] = true,
-            ["force_emu_enabled"] = false,
+            ["force_emu_enabled"] = true,
             ["auto_arm8_msg"] = "",
             ["auto_emu_msg"] = "i dont have my pc with me wait 1 week or use 1.73.6",
             ["force_arm8_msg"] = "",
