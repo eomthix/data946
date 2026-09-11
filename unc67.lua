@@ -170,15 +170,15 @@ return {
             ["unl_cups_phone"] = 0x204E698, --1.74.1
             ["unl_cups_emu"] = 0x2063638, --1.73.6
             ["fake_unlock_phone"] = 0x14FC644, --1.74.2
-            ["fake_unlock_emu"] = 0x14151C0, --1.73.6
+            ["fake_unlock_emu"] = 0x1445A2A, --1.74.2
             ["fake_vip_phone"] = 0x1500A1C, --1.74.2
             ["fake_vip_emu"] = 0x14195B8, --1.73.6
             ["dist_phone"] = 0x2051598, --1.74.2
             ["dist_emu"] = 0x2066508, --1.73.6
             ["detach_phone"] = 0x1A9038C, --1.74.2
-            ["detach_emu"] = 0x19DA24D, --1.73.6
+            ["detach_emu"] = 0x1A1A4F7, --1.74.2
 			["fuel_phone"] = 0x1A8F104, --1.74.2
-		    ["fuel_emu"] = 0x19D8EBF --1.73.6
+		    ["fuel_emu"] = 0x1A19153 --1.74.2
         },
 
 ["PATCHES"] = {
@@ -192,17 +192,17 @@ return {
     [2] = {
         ["name"] = "Force Boss (Emu)",
         ["edits"] = {
-            { "0x1425320", "F30F1080FCFFFFFFr" },
-            { "0x1425320", "F30F1080FCFFFFFFr" }
+            { "0x1455EF2", "F30F1080FCFFFFFFr" },
+            { "0x1455EF2", "F30F1080FCFFFFFFr" }
         }
     },
     [3] = {
         ["name"] = "Auto Win (Emu)",
         ["edits"] = {
-            { "0xFE18FA",  "6A028F44240490r" },
-            { "0xFE1BC1",  "C744240C0000A0C0909090r" },
-            { "0x1CB107D", "90909090r" },
-            { "0x220C0B8", "00000000r" }
+            { "0x100AC6E", "6A028F44240490r" },
+                { "0x100AF35", "C744240C0000A0C0909090r" },
+                { "0x1CF53CD", "90909090r" },
+                { "0x6D62A0", "00000000r" }
         }
     },
     [4] = {
@@ -226,7 +226,7 @@ return {
     [6] = {
         ["name"] = "Free Upgrades (Emu)",
         ["edits"] = {
-            { "0xDBBBFA", "F30F5CC0F30F5CC19090r" }
+            { "0xDD7554", "F30F5CC0F30F5CC19090r" }
         }
       }
    }
