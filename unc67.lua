@@ -172,7 +172,7 @@ return {
             ["fake_unlock_phone"] = 0x14FC644, --1.74.2
             ["fake_unlock_emu"] = 0x1445A2A, --1.74.2
             ["fake_vip_phone"] = 0x1500A1C, --1.74.2
-            ["fake_vip_emu"] = 0x1452FA0, --1.74.2 maybe
+            ["fake_vip_emu"] = 0x144A07C, --1.74.2 
             ["dist_phone"] = 0x2051598, --1.74.2
             ["dist_emu"] = 0x20ACE18, --1.74.2
             ["detach_phone"] = 0x1A9038C, --1.74.2
