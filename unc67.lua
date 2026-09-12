@@ -3910,6 +3910,7 @@ Echo,
             ["UnlockAdventureVehicles"] = { "MONSTER TRUCK", "ROTATOR", "CHOPPER", "TANK", "CC-EV" },
             ["UnlockEventVehicles"] = { "ATV", "OFFROADER", "STOCKER", "BUS", "MOONLANDER", "HOVERBIKE", "ROCK BOUNCER", "RAIDER", "BOLT" },
             ["UnlockBluePrintVehicles"] = { "SCOOTER", "MOTOCROSS", "TRACTOR", "SNOWMOBILE", "MONOWHEEL" },
+		    ["UnlockOtherVehicles"] = { "GLIDER", "HAVOC" },
             ["UnlockMasteryVehicles"] = { "STOCKER", "HAVOC" }
         }
     }
