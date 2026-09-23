@@ -189,7 +189,7 @@ return {
             ["detach_emu"] = 0x1A1A4F7, --1.74.2
 			["fuel_phone"] = 0x1A8F104, --1.74.2
 		    ["fuel_emu"] = 0x1A19153, --1.74.2
-            ["swap_phone"] = 0x21FC948 --1.74.2
+            ["swap_phone"] = 0x21FC948, --1.74.2
 			["chest_phone"] = 0x6DB360, --1.74.2
 			["chest_emu"] = 0x6CF5E4 --1.74.2
         },
