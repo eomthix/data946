@@ -22,7 +22,7 @@ local Echo = "ECHO"
 
 return {
 
-["script_download"] = "https://drive.google.com/file/d/1G41bS4Ak8VgjGIckz4aJHL9p_cZpcOZ2/view?usp=drive_link",
+    ["script_download"] = "https://drive.google.com/file/d/1G41bS4Ak8VgjGIckz4aJHL9p_cZpcOZ2/view?usp=drive_link",
 
     ["status"] = "ON",
     ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
@@ -89,155 +89,155 @@ return {
     ["status_21"] = "ON",
     ["status_21_msg"] = "❗ Remove Mastery Time is in Maintance mode! Check t.me/hcr2ggz for more updates!",
 
-["versions"] = {
-["1.74.2"] = {
-        ["version_status"] = "ON",
-        ["download_link"] = "https://www.mediafire.com/file/7pcynn8000mp7m1/Hill+Climb+Racing+2+1.74.2.apks/file",
-        ["meta"] = { ["version"] = "1.74.2" },
-    ["status"] = {
-    ["status"] = "ON",
-    ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
-    ["status_copy"] = "ON",
-    ["text_copy"] = "",
+    ["versions"] = {
+        ["1.74.2"] = {
+            ["version_status"] = "ON",
+            ["download_link"] = "https://www.mediafire.com/file/7pcynn8000mp7m1/Hill+Climb+Racing+2+1.74.2.apks/file",
+            ["meta"] = { ["version"] = "1.74.2" },
+            ["status"] = {
+                ["status"] = "ON",
+                ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_copy"] = "ON",
+                ["text_copy"] = "",
 
-    ["status_2"] = "ON",
-    ["status_2_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_2"] = "ON",
+                ["status_2_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_3"] = "ON",
-    ["status_3_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_3"] = "ON",
+                ["status_3_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_4"] = "ON",
-    ["status_4_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_4"] = "ON",
+                ["status_4_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_5"] = "ON",
-    ["status_5_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_5"] = "ON",
+                ["status_5_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_6"] = "ON",
-    ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_6"] = "ON",
+                ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_7"] = "ON",
-    ["status_7_msg"] = "❗ Max All Masteries for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_7"] = "ON",
+                ["status_7_msg"] = "❗ Max All Masteries for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_8"] = "ON",
-    ["status_8_msg"] = "❗ Max All Masteries for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_8"] = "ON",
+                ["status_8_msg"] = "❗ Max All Masteries for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_9"] = "ON",
-    ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_9"] = "ON",
+                ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_10"] = "ON",
-    ["status_10_msg"] = "❗ Max All Parts for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_10"] = "ON",
+                ["status_10_msg"] = "❗ Max All Parts for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_11"] = "ON",
-    ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_11"] = "ON",
+                ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_12"] = "ON",
-    ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_12"] = "ON",
+                ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_13"] = "ON",
-    ["status_13_msg"] = "❗ Free Upgrades for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_13"] = "ON",
+                ["status_13_msg"] = "❗ Free Upgrades for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_14"] = "ON",
-    ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_14"] = "ON",
+                ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_15"] = "ON",
-    ["status_15_msg"] = "❗ Get Tunes for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_15"] = "ON",
+                ["status_15_msg"] = "❗ Get Tunes for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_16"] = "ON",
-    ["status_16_msg"] = "❗ Get Tunes for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_16"] = "ON",
+                ["status_16_msg"] = "❗ Get Tunes for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_17"] = "ON",
-    ["status_17_msg"] = "❗ Auto Detach for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_17"] = "ON",
+                ["status_17_msg"] = "❗ Auto Detach for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_18"] = "ON",
-    ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_18"] = "ON",
+                ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_19"] = "ON",
-    ["status_19_msg"] = "❗ Distance for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_19"] = "ON",
+                ["status_19_msg"] = "❗ Distance for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_20"] = "ON",
-    ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_20"] = "ON",
+                ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_21"] = "ON",
-    ["status_21_msg"] = "❗ There is no Vehicle with a locked Mastery right now!",
+                ["status_21"] = "ON",
+                ["status_21_msg"] = "❗ There is no Vehicle with a locked Mastery right now!"
+            },
 
-    ["auto_arm8_enabled"] = true,
+            ["auto_arm8_enabled"] = true,
             ["auto_emu_enabled"] = true,
             ["force_arm8_enabled"] = true,
             ["force_emu_enabled"] = true,
             ["auto_arm8_msg"] = "",
             ["auto_emu_msg"] = "",
             ["force_arm8_msg"] = "",
-            ["force_emu_msg"] = ""
-    
-        },
-        ["offsets"] = {
-            ["mastery_phone"] = 0x204C228, --1.74.2
-            ["mastery_emu"] = 0x20A7AA8, --1.74.2
-            ["parts_phone"] = 0x204E068, --1.74.2
-            ["parts_emu"] = 0x20A98E8, --1.74.2
-            ["tunes_lib_arm8"] = 0x204AE38, --1.74.2
-            ["tunes_lib_x64"] = 0x20A66B8, --1.74.2
-            ["unl_cups_phone"] = 0x204E698, --1.74.2
-            ["unl_cups_emu"] = 0x20A9F18, --1.74.2
-            ["fake_unlock_phone"] = 0x14FC644, --1.74.2
-            ["fake_unlock_emu"] = 0x1445A2A, --1.74.2
-            ["fake_vip_phone"] = 0x1500A1C, --1.74.2
-            ["fake_vip_emu"] = 0x144A07C, --1.74.2 
-            ["dist_phone"] = 0x2051598, --1.74.2
-            ["dist_emu"] = 0x20ACE18, --1.74.2
-            ["detach_phone"] = 0x1A9038C, --1.74.2
-            ["detach_emu"] = 0x1A1A4F7, --1.74.2
-			["fuel_phone"] = 0x1A8F104, --1.74.2
-		    ["fuel_emu"] = 0x1A19153, --1.74.2
-            ["swap_phone"] = 0x21FC948 --1.74.2
-        },
+            ["force_emu_msg"] = "",
 
-["PATCHES"] = {
-    [1] = {
-        ["name"] = "Force Boss",
-        ["edits"] = {
-           { "0x14F0184", "00C15FBCr" }, 
-		   { "0x150C72C", "00C15FBCr" } 
-        }
-    },
-    [2] = {
-        ["name"] = "Force Boss (Emu)",
-        ["edits"] = {
-            { "0x1455EF2", "F30F1080FCFFFFFFr" },
-            { "0x1455EF2", "F30F1080FCFFFFFFr" }
-        }
-    },
-    [3] = {
-        ["name"] = "Auto Win (Emu)",
-        ["edits"] = {
-            { "0x100AC6E", "6A028F44240490r" },
-                { "0x100AF35", "C744240C0000A0C0909090r" },
-                { "0x1CF53CD", "90909090r" },
-                { "0x2256A40", "00000000r" }
-        }
-    },
-    [4] = {
-            ["name"] = "Auto Win",
-        ["edits"] = {
-            { "0x10D908C", "55008052r" }, --ok
-{ "0x10D92A8", "0990321Er" }, --ok
-{ "0x1A8F138", "00008052r" }, --ok
-{ "0x10BD57C", "605608B9r" }, --ok
-{ "0x1D09C04", "080108CAr" }, --ok
-{ "0x21FB630", "00000000r" }
-        }
-    },
-    [5] = {
-        ["name"] = "Free Upgrades",
-        ["edits"] = {
-            { "0xEAA900", "0090641Er" }, 
-            { "0xEAA91C", "0090641Er" }
-        }
-    },
-    [6] = {
-        ["name"] = "Free Upgrades (Emu)",
-        ["edits"] = {
-            { "0xDD7554", "F30F5CC0F30F5CC19090r" }
+            ["offsets"] = {
+                ["mastery_phone"] = 0x204C228,
+                ["mastery_emu"] = 0x20A7AA8,
+                ["parts_phone"] = 0x204E068,
+                ["parts_emu"] = 0x20A98E8,
+                ["tunes_lib_arm8"] = 0x204AE38,
+                ["tunes_lib_x64"] = 0x20A66B8,
+                ["unl_cups_phone"] = 0x204E698,
+                ["unl_cups_emu"] = 0x20A9F18,
+                ["fake_unlock_phone"] = 0x14FC644,
+                ["fake_unlock_emu"] = 0x1445A2A,
+                ["fake_vip_phone"] = 0x1500A1C,
+                ["fake_vip_emu"] = 0x144A07C,
+                ["dist_phone"] = 0x2051598,
+                ["dist_emu"] = 0x20ACE18,
+                ["detach_phone"] = 0x1A9038C,
+                ["detach_emu"] = 0x1A1A4F7,
+                ["fuel_phone"] = 0x1A8F104,
+                ["fuel_emu"] = 0x1A19153,
+                ["swap_phone"] = 0x21FC948
+            },
+
+            ["PATCHES"] = {
+                [1] = {
+                    ["name"] = "Force Boss",
+                    ["edits"] = {
+                        { "0x14F0184", "00C15FBCr" },
+                        { "0x150C72C", "00C15FBCr" }
+                    }
+                },
+                [2] = {
+                    ["name"] = "Force Boss (Emu)",
+                    ["edits"] = {
+                        { "0x1455EF2", "F30F1080FCFFFFFFr" },
+                        { "0x1455EF2", "F30F1080FCFFFFFFr" }
+                    }
+                },
+                [3] = {
+                    ["name"] = "Auto Win (Emu)",
+                    ["edits"] = {
+                        { "0x100AC6E", "6A028F44240490r" },
+                        { "0x100AF35", "C744240C0000A0C0909090r" },
+                        { "0x1CF53CD", "90909090r" },
+                        { "0x2256A40", "00000000r" }
+                    }
+                },
+                [4] = {
+                    ["name"] = "Auto Win",
+                    ["edits"] = {
+                        { "0x10D908C", "55008052r" },
+                        { "0x10D92A8", "0990321Er" },
+                        { "0x1A8F138", "00008052r" },
+                        { "0x10BD57C", "605608B9r" },
+                        { "0x1D09C04", "080108CAr" },
+                        { "0x21FB630", "00000000r" }
+                    }
+                },
+                [5] = {
+                    ["name"] = "Free Upgrades",
+                    ["edits"] = {
+                        { "0xEAA900", "0090641Er" },
+                        { "0xEAA91C", "0090641Er" }
+                    }
+                },
+                [6] = {
+                    ["name"] = "Free Upgrades (Emu)",
+                    ["edits"] = {
+                        { "0xDD7554", "F30F5CC0F30F5CC19090r" }
         }
       }
    }
