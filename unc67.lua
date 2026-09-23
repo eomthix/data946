@@ -191,7 +191,9 @@ return {
                 ["fuel_emu"] = 0x1A19153,
                 ["swap_phone"] = 0x21FC948,
 				["chest_phone"] = 0x6DB360,
-                ["chest_emu"] = 0x6CF5E4
+                ["chest_emu"] = 0x6CF5E4,
+				["die_phone"] = 0x1A8F138,
+				["die_emu"] = 0x6CF834
             },
 
             ["PATCHES"] = {
