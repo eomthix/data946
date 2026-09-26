@@ -239,14 +239,14 @@ return {
                         { "0xEAA91C", "0090641Er" }
                     }
                 },
-                [6] = {
+[6] = {
                     ["name"] = "Free Upgrades (Emu)",
                     ["edits"] = {
                         { "0xDD7554", "F30F5CC0F30F5CC19090r" }
-        }
-      }
-   }
-},
+                    }
+                }
+            }
+        },
 ["1.74.1"] = {
         ["version_status"] = "OFF",
         ["download_link"] = "https://www.mediafire.com/file/o19uuya0npqs51f/Hill+Climb+Racing+2+1.74.1.apks/file",
