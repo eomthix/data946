@@ -195,7 +195,9 @@ return {
     ["die_phone"] = 0x1A8F138,
     ["die_emu"] = 0x6CF834,
     ["countdown_phone"] = 0x21FB630,
-    ["countdown_emu"] = 0x2256A40
+    ["countdown_emu"] = 0x2256A40,
+    ["unban_1"] = 0x14ECC00,
+	["unban_2"] = 0x14F362C
 },
 
             ["PATCHES"] = {
