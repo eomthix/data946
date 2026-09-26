@@ -193,7 +193,9 @@ return {
 				["chest_phone"] = 0x6DB360,
                 ["chest_emu"] = 0x6CF5E4,
 				["die_phone"] = 0x1A8F138,
-				["die_emu"] = 0x6CF834
+				["die_emu"] = 0x6CF834,
+				["countdown_phone"] = 0x21FB630,
+				["countdown_emu"] = 
             },
 
             ["PATCHES"] = {
