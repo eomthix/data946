@@ -195,7 +195,7 @@ return {
 				["die_phone"] = 0x1A8F138,
 				["die_emu"] = 0x6CF834,
 				["countdown_phone"] = 0x21FB630,
-				["countdown_emu"] = 
+				["countdown_emu"] = 0x2256A40
             },
 
             ["PATCHES"] = {
