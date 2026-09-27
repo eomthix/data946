@@ -197,7 +197,10 @@ return {
     ["countdown_phone"] = 0x21FB630,
     ["countdown_emu"] = 0x2256A40,
     ["unban_1"] = 0x14ECC00,
-	["unban_2"] = 0x14F362C
+	["unban_2"] = 0x14F362C,
+	["finish_line"] = 0x6DA130,
+	["vehicle_speed_phone"] = 0x6DFAB4,
+	["vehicle_speed_emu"] = 0x6D6204
 },
 
             ["PATCHES"] = {
