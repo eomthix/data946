@@ -206,7 +206,9 @@ return {
 	["fly_phone"] = 0x21FB720,
 	["fly_emu"] = 0x2256B30,
 	["mastery_coin_phone"] = 0x21FBA50,
-	["mastery_coin_emu"] = 0x2256E60
+	["mastery_coin_emu"] = 0x2256E60,
+	["trexc_phone"] = 0x21FB180,
+	["trexc_emu"] = 0x2256590
 },
 
             ["PATCHES"] = {
