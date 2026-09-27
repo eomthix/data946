@@ -204,7 +204,9 @@ return {
 	["zoom_1_phone"] = 0x21FB784,
 	["zoom_2_phone"] = 0x21FB788,
 	["zoom_1_emu"] = 0x2256B94,
-	["zoom_2_emu"] = 0x2256B98
+	["zoom_2_emu"] = 0x2256B98,
+	["fly_phone"] = 0x21FB720,
+	["fly_emu"] = 0x2256B30
 },
 
             ["PATCHES"] = {
