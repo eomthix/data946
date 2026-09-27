@@ -200,7 +200,11 @@ return {
 	["unban_2"] = 0x14F362C,
 	["finish_line"] = 0x6DA130,
 	["vehicle_speed_phone"] = 0x6DFAB4,
-	["vehicle_speed_emu"] = 0x6D6204
+	["vehicle_speed_emu"] = 0x6D6204,
+	["zoom_1_phone"] = 0x21FB784,
+	["zoom_2_phone"] = 0x21FB788,
+	["zoom_1_emu"] = 0x2256B94,
+	["zoom_2_emu"] = 0x2256B98
 },
 
             ["PATCHES"] = {
