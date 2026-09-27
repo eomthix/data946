@@ -173,8 +173,6 @@ return {
            ["offsets"] = {
     ["mastery_phone"] = 0x204C228,
     ["mastery_emu"] = 0x20A7AA8,
-    ["parts_phone"] = 0x204E068,
-    ["parts_emu"] = 0x20A98E8,
     ["tunes_lib_arm8"] = 0x204AE38,
     ["tunes_lib_x64"] = 0x20A66B8,
     ["unl_cups_phone"] = 0x204E698,
@@ -206,7 +204,9 @@ return {
 	["zoom_1_emu"] = 0x2256B94,
 	["zoom_2_emu"] = 0x2256B98,
 	["fly_phone"] = 0x21FB720,
-	["fly_emu"] = 0x2256B30
+	["fly_emu"] = 0x2256B30,
+	["mastery_coin_phone"] = 0x21FBA50,
+	["mastery_coin_emu"] = 0x2256E60
 },
 
             ["PATCHES"] = {
