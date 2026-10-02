@@ -92,7 +92,7 @@ return {
     ["versions"] = {
 		 ["1.75.1"] = {
             ["version_status"] = "ON",
-            ["download_link"] = "https://www.mediafire.com/file/7pcynn8000mp7m1/Hill+Climb+Racing+2+1.74.2.apks/file",
+            ["download_link"] = "https://www.mediafire.com/file/lbmb5snmnm5b2az/Hill_Climb_Racing_2_1.75.1.apks/file",
             ["meta"] = { ["version"] = "1.75.1" },
             ["status"] = {
                 ["status"] = "ON",
@@ -264,7 +264,7 @@ return {
         },
             ["1.75.0"] = {
             ["version_status"] = "ON",
-            ["download_link"] = "https://www.mediafire.com/file/7pcynn8000mp7m1/Hill+Climb+Racing+2+1.74.2.apks/file",
+            ["download_link"] = "https://www.mediafire.com/file/lt15px536f1ix05/Hill+Climb+Racing+2+1.75.0.apks/file",
             ["meta"] = { ["version"] = "1.75.0" },
             ["status"] = {
                 ["status"] = "ON",
