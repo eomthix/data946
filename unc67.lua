@@ -399,11 +399,11 @@ return {
                     }
                 },
                 [3] = {
-                    ["name"] = "Auto Win (Emu)", --maybe
+                    ["name"] = "Auto Win (Emu)", 
                     ["edits"] = {
                         { "0x1021280", "6A028F44240490r" },
                 { "0x1021547", "C744240C0000A0C0909090r" },
-             --   { "0x1D2AF3D", "90909090r" }, remove because it caused crash
+             { "0x1D2AF3D", "90909090r" },
                 { "0x228E1C8", "00000000r" },
 				{ "0x6D92BC", "00000000r" }
                     }
