@@ -173,41 +173,41 @@ return {
            ["offsets"] = {
     ["mastery_phone"] = 0x20832F8, --1.75.1
     ["mastery_emu"] = 0x20DEB78, --1.75.1
-    ["tunes_lib_arm8"] = 0x2080EE8, --1.75.0
+    ["tunes_lib_arm8"] = 0x2081F08, --1.75.1
     ["tunes_lib_x64"] = 0x20DD788, --1.75.1
-    ["unl_cups_phone"] = 0x2084748, --1.75.0
+    ["unl_cups_phone"] = 0x2085768, --1.75.1
     ["unl_cups_emu"] = 0x20DEFE8, --1.75.0
     ["fake_unlock_phone"] = 0x15180D0, --1.75.1
     ["fake_unlock_emu"] = 0x145ED00, --1.75.1
     ["fake_vip_phone"] = 0x151C4E4, --1.75.1
     ["fake_vip_emu"] = 0x1463352, --1.75.1
-    ["dist_phone"] = 0x2087648, --1.75.0
+    ["dist_phone"] = 0x2088668, --1.75.1
     ["dist_emu"] = 0x20E3EE8, --1.75.1
-    ["detach_phone"] = 0x1AC551C, --1.75.0
+    ["detach_phone"] = 0x1AC6680, --1.75.1
     ["detach_emu"] = 0x1A5059B, --1.75.1
-    ["fuel_phone"] = 0x1AC4284, --1.75.0
+    ["fuel_phone"] = 0x1AC53E8, --1.75.1
     ["fuel_emu"] = 0x1A4F1DF, --1.75.1
-    ["swap_phone"] = 0x2235130, --1.75.0
-    ["chest_phone"] = 0x6E5098, --1.75.0
+    ["swap_phone"] = 0x22361C0, --1.75.1
+    ["chest_phone"] = 0x6E5450, --1.75.1
     ["chest_emu"] = 0x6D941C, --1.75.1
-    ["die_phone"] = 0x1AC42B8, --1.75.0
+    ["die_phone"] = 0x1AC541C, --1.75.1
     ["die_emu"] = 0x6D9670, --1.75.1
-    ["countdown_phone"] = 0x2233E18, --1.75.0
+    ["countdown_phone"] = 0x2234EA8, --1.75.1
     ["countdown_emu"] = 0x2290238, --1.75.1
-    ["unban_1"] = 0x1507FD0, --1.75.0
-	["unban_2"] = 0x150E9FC, --1.75.0
-	["finish_line"] = 0x6E3E60, --1.75.0
-	["vehicle_speed_phone"] = 0x6E9834, --1.75.0
+    ["unban_1"] = 0x1508664, --1.75.1
+	["unban_2"] = 0x150F090, --1.75.1
+	["finish_line"] = 0x6E4218, --1.75.1
+	["vehicle_speed_phone"] = 0x6E9BE4, --1.75.1
 	["vehicle_speed_emu"] = 0x6E0094, --1.75.1
-	["zoom_1_phone"] = 0x2233F6C, --1.75.0
-	["zoom_2_phone"] = 0x2233F70, --1.75.0
-	["zoom_1_emu"] = 0x229038C, --1.75.1
+	["zoom_1_phone"] = 0x2234FFC, --1.75.1
+	["zoom_2_phone"] = 0x2235000, --1.75.1
+	["zoom_1_emu"] = 0x2234FFC, --1.75.1
 	["zoom_2_emu"] = 0x2290390, --1.75.1
 	["fly_phone"] = 0x2233F08, --1.75.0
 	["fly_emu"] = 0x2290328, --1.75.1
-	["mastery_coin_phone"] = 0x2234238, --1.75.0
+	["mastery_coin_phone"] = 0x22352C8, --1.75.1
 	["mastery_coin_emu"] = 0x2290658, --1.75.1
-    ["three_coins_phone"] = 0x2233960, --1.75.0
+    ["three_coins_phone"] = 0x22349F0, --1.75.1
 	["three_coins_emu"] = 0x228FD80 --1.75.1
 },
 
@@ -215,8 +215,8 @@ return {
                 [1] = {
                     ["name"] = "Force Boss",
                     ["edits"] = {
-                          { "0x150B554", "00C15FBCr" }, 
-                          { "0x1527B6C", "00C15FBCr" } 
+                          { "0x150BBE8", "00C15FBCr" }, 
+                          { "0x1528200", "00C15FBCr" } 
                     }
                 },
                 [2] = {
@@ -239,19 +239,19 @@ return {
                 [4] = {
                     ["name"] = "Auto Win",
                     ["edits"] = {
-                        { "0x10F178C", "55008052r" }, 
-                { "0x10F19A8", "0990321Er" }, 
-                { "0x1AC42B8", "00008052r" }, 
+                        { "0x10F1844", "55008052r" }, 
+                { "0x10F1A60", "0990321Er" }, 
+                { "0x1AC541C", "00008052r" }, 
 			--   { 0x1F57F24, "605608B9r" }, removed because it caused crash
             --    { 0x1D7592C, "080108CAr" }, removed because it caused crash
-                { "0x2233E18", "00000000r" } 
+                { "0x2234EA8", "00000000r" } 
                     }
                 },
                 [5] = {
                     ["name"] = "Free Upgrades",
                     ["edits"] = {
-                        { "0xEC2FF0", "0090641Er" },
-                        { "0xEC300C", "0090641Er" }
+                        { "0xEC2F6C", "0090641Er" },
+                        { "0xEC2F88", "0090641Er" }
                     }
                 },
 [6] = {
