@@ -171,8 +171,8 @@ return {
             ["force_emu_msg"] = "",
 
            ["offsets"] = {
-    ["mastery_phone"] = 0x20822D8, --1.75.0
-    ["mastery_emu"] = 0x20DCB78, --1.75.0
+    ["mastery_phone"] = 0x20832F8, --1.75.1
+    ["mastery_emu"] = 0x20DEB78, --1.75.1
     ["tunes_lib_arm8"] = 0x2080EE8, --1.75.0
     ["tunes_lib_x64"] = 0x20DB788, --1.75.0
     ["unl_cups_phone"] = 0x2084748, --1.75.0
