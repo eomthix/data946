@@ -397,8 +397,8 @@ return {
                         { "0x10F178C", "55008052r" }, 
                         { "0x10F19A8", "0990321Er" }, 
                         { "0x1AC42B8", "00008052r" }, 
-                        -- { 0x1F57F24, "605608B9r" }, removed because it caused crash
-                        -- { 0x1D7592C, "080108CAr" }, removed because it caused crash
+                        { "0x1AC42BC", "605608B9r" }, 
+                        { "0x1D3FA98", "080108CAr" }, 
                         { "0x2233E18", "00000000r" } 
                     }
                 },
