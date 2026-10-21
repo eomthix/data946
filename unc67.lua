@@ -93,7 +93,7 @@ return {
 		["1.75.2"] = {
             ["version_status"] = "ON",
             ["download_link"] = "https://www.mediafire.com/file/lbmb5snmnm5b2az/Hill_Climb_Racing_2_1.75.1.apks/file",
-            ["meta"] = { ["version"] = "1.75.1" },
+            ["meta"] = { ["version"] = "1.75.2" },
             ["status"] = {
                 ["status"] = "ON",
                 ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
@@ -130,7 +130,7 @@ return {
                 ["status_11"] = "ON",
                 ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_12"] = "ON",
+                ["status_12"] = "OFF",
                 ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
                 ["status_13"] = "ON",
@@ -192,23 +192,23 @@ return {
     ["fly_phone"] = 0x2233F08, --1.75.0
     ["mastery_coin_phone"] = 0x22352C8, --1.75.1
     ["three_coins_phone"] = 0x22349F0, --1.75.1
-    ["mastery_emu"] = 0x20DEB78, --1.75.1
-    ["tunes_lib_x64"] = 0x20DD788, --1.75.1
-    ["unl_cups_emu"] = 0x20DEFE8, --1.75.0
-    ["fake_unlock_emu"] = 0x145ED00, --1.75.1
-    ["fake_vip_emu"] = 0x1463352, --1.75.1
-    ["dist_emu"] = 0x20E3EE8, --1.75.1
-    ["detach_emu"] = 0x1A5059B, --1.75.1
-    ["fuel_emu"] = 0x1A4F1DF, --1.75.1
-    ["chest_emu"] = 0x6D941C, --1.75.1
-    ["die_emu"] = 0x6D9670, --1.75.1
-    ["countdown_emu"] = 0x2290238, --1.75.1
-    ["vehicle_speed_emu"] = 0x6E0094, --1.75.1
-    ["zoom_1_emu"] = 0x2234FFC, --1.75.1
-    ["zoom_2_emu"] = 0x2290390, --1.75.1
-    ["fly_emu"] = 0x2290328, --1.75.1
-    ["mastery_coin_emu"] = 0x2290658, --1.75.1
-    ["three_coins_emu"] = 0x228FD80 --1.75.1
+    ["mastery_emu"] = 0x263B2EC0, --1.75.2
+    ["tunes_lib_x64"] = 0x20E8798, --1.75.2
+    ["unl_cups_emu"] = 0x, --1.75.2
+    ["dist_emu"] = 0x20EEEF8, --1.75.2
+    ["fake_unlock_emu"] = 0x1462E0A, --1.75.2
+    ["fake_vip_emu"] = 0x146745C, --1.75.2
+    ["detach_emu"] = 0x1A5BBDB, --1.75.2
+    ["fuel_emu"] = 0x1A5A81F, --1.75.2
+    ["chest_emu"] = 0x6DB228, --1.75.2
+    ["die_emu"] = 0x6DB480, --1.75.2
+    ["countdown_emu"] = 0x229BA98, --1.75.2
+    ["vehicle_speed_emu"] = 0x6E1E94, --1.75.2
+    ["zoom_1_emu"] = 0x229BBEC, --1.75.2
+    ["zoom_2_emu"] = 0x229BBF0, --1.75.2
+    ["fly_emu"] = 0x229BB88, --1.75.2
+    ["mastery_coin_emu"] = 0x229BEB8, --1.75.2
+    ["three_coins_emu"] = 0x229B5E0 --1.75.2
 },
 
             ["PATCHES"] = {
