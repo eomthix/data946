@@ -238,26 +238,26 @@ return {
                     }
                 },
                 [4] = {
-                    ["name"] = "Force Boss (Emu)", --maybe
+                    ["name"] = "Force Boss (Emu)",
                     ["edits"] = {
-                        { "0x146F21C", "F30F1080FCFFFFFFr" },
-                        { "0x146F21C", "F30F1080FCFFFFFFr" }
+                        { "0x1473326", "F30F1080FCFFFFFFr" },
+                        { "0x10253C6", "F30F1080FCFFFFFFr" }
                     }
                 },
                 [5] = {
-                    ["name"] = "Auto Win (Emu)", --maybe
+                    ["name"] = "Auto Win (Emu)",
                     ["edits"] = {
-                        { "0x10213BE", "6A028F44240490r" },
-                        { "0x1021685", "C744240C0000A0C0909090r" },
-                        { "0x1D2C1BD", "90909090r" },
-                        { "0x2290238", "00000000r" },
-                        { "0x6D9670", "00000000r" }
+                        { "0x102568D", "6A028F44240490r" },
+                        { "0x1D3783D", "C744240C0000A0C0909090r" },
+                        { "0x229BA98", "90909090r" },
+                        { "0x6DB480", "00000000r" },
+                        { "0xDF1AF0", "00000000r" }
                     }
                 },
                 [6] = {
-                    ["name"] = "Free Upgrades (Emu)", --maybe
+                    ["name"] = "Free Upgrades (Emu)",
                     ["edits"] = {
-                        { 0xDEDAE8, "F30F5CC0F30F5CC19090r" }
+                        { "nil", "F30F5CC0F30F5CC19090r" }
                     }
                 }
             }
