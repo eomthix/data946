@@ -90,6 +90,178 @@ return {
     ["status_21_msg"] = "❗ Remove Mastery Time is in Maintance mode! Check t.me/hcr2ggz for more updates!",
 
     ["versions"] = {
+		["1.75.2"] = {
+            ["version_status"] = "ON",
+            ["download_link"] = "https://www.mediafire.com/file/lbmb5snmnm5b2az/Hill_Climb_Racing_2_1.75.1.apks/file",
+            ["meta"] = { ["version"] = "1.75.1" },
+            ["status"] = {
+                ["status"] = "ON",
+                ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+                ["status_copy"] = "ON",
+                ["text_copy"] = "",
+
+                ["status_2"] = "ON",
+                ["status_2_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_3"] = "ON",
+                ["status_3_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_4"] = "ON",
+                ["status_4_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_5"] = "ON",
+                ["status_5_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_6"] = "ON",
+                ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_7"] = "ON",
+                ["status_7_msg"] = "❗ Max All Masteries for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_8"] = "ON",
+                ["status_8_msg"] = "❗ Max All Masteries for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_9"] = "ON",
+                ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_10"] = "ON",
+                ["status_10_msg"] = "❗ Max All Parts for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_11"] = "ON",
+                ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_12"] = "ON",
+                ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_13"] = "ON",
+                ["status_13_msg"] = "❗ Free Upgrades for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_14"] = "ON",
+                ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_15"] = "ON",
+                ["status_15_msg"] = "❗ Get Tunes for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_16"] = "ON",
+                ["status_16_msg"] = "❗ Get Tunes for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_17"] = "ON",
+                ["status_17_msg"] = "❗ Auto Detach for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_18"] = "ON",
+                ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_19"] = "ON",
+                ["status_19_msg"] = "❗ Distance for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_20"] = "ON",
+                ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+                ["status_21"] = "ON",
+                ["status_21_msg"] = "❗ There is no Vehicle with a locked Mastery right now!"
+            },
+
+            ["auto_arm8_enabled"] = true,
+            ["auto_emu_enabled"] = true,
+            ["force_arm8_enabled"] = true,
+            ["force_emu_enabled"] = true,
+            ["auto_arm8_msg"] = "",
+            ["auto_emu_msg"] = "",
+            ["force_arm8_msg"] = "",
+            ["force_emu_msg"] = "",
+
+           ["offsets"] = {
+    ["mastery_phone"] = 0x20832F8, --1.75.1
+    ["tunes_lib_arm8"] = 0x2081F08, --1.75.1
+    ["unl_cups_phone"] = 0x2085768, --1.75.1
+    ["fake_unlock_phone"] = 0x15180D0, --1.75.1
+    ["fake_vip_phone"] = 0x151C4E4, --1.75.1
+    ["dist_phone"] = 0x2088668, --1.75.1
+    ["detach_phone"] = 0x1AC6680, --1.75.1
+    ["fuel_phone"] = 0x1AC53E8, --1.75.1
+    ["swap_phone"] = 0x22361C0, --1.75.1
+    ["chest_phone"] = 0x6E5450, --1.75.1
+    ["die_phone"] = 0x1AC541C, --1.75.1
+    ["countdown_phone"] = 0x2234EA8, --1.75.1
+    ["unban_1"] = 0x1508664, --1.75.1
+    ["unban_2"] = 0x150F090, --1.75.1
+    ["finish_line"] = 0x6E4218, --1.75.1
+    ["vehicle_speed_phone"] = 0x6E9BE4, --1.75.1
+    ["zoom_1_phone"] = 0x2234FFC, --1.75.1
+    ["zoom_2_phone"] = 0x2235000, --1.75.1
+    ["fly_phone"] = 0x2233F08, --1.75.0
+    ["mastery_coin_phone"] = 0x22352C8, --1.75.1
+    ["three_coins_phone"] = 0x22349F0, --1.75.1
+    ["mastery_emu"] = 0x20DEB78, --1.75.1
+    ["tunes_lib_x64"] = 0x20DD788, --1.75.1
+    ["unl_cups_emu"] = 0x20DEFE8, --1.75.0
+    ["fake_unlock_emu"] = 0x145ED00, --1.75.1
+    ["fake_vip_emu"] = 0x1463352, --1.75.1
+    ["dist_emu"] = 0x20E3EE8, --1.75.1
+    ["detach_emu"] = 0x1A5059B, --1.75.1
+    ["fuel_emu"] = 0x1A4F1DF, --1.75.1
+    ["chest_emu"] = 0x6D941C, --1.75.1
+    ["die_emu"] = 0x6D9670, --1.75.1
+    ["countdown_emu"] = 0x2290238, --1.75.1
+    ["vehicle_speed_emu"] = 0x6E0094, --1.75.1
+    ["zoom_1_emu"] = 0x2234FFC, --1.75.1
+    ["zoom_2_emu"] = 0x2290390, --1.75.1
+    ["fly_emu"] = 0x2290328, --1.75.1
+    ["mastery_coin_emu"] = 0x2290658, --1.75.1
+    ["three_coins_emu"] = 0x228FD80 --1.75.1
+},
+
+            ["PATCHES"] = {
+                [1] = {
+                    ["name"] = "Force Boss",
+                    ["edits"] = {
+                        { "0x150BBE8", "00C15FBCr" },
+                        { "0x1528200", "00C15FBCr" }
+                    }
+                },
+                [2] = {
+                    ["name"] = "Auto Win",
+                    ["edits"] = {
+                        { "0x10F1844", "55008052r" },
+                        { "0x10F1A60", "0990321Er" },
+                        { "0x1AC541C", "00008052r" },
+                       { "0x1AC5420", "605608B9r" }, 
+                      --  { "0x1D40BFC", "080108CAr" }, 
+                        { "0x2234EA8", "00000000r" }
+                    }
+                },
+                [3] = {
+                    ["name"] = "Free Upgrades",
+                    ["edits"] = {
+                        { "0xEC2F6C", "0090641Er" },
+                        { "0xEC2F88", "0090641Er" }
+                    }
+                },
+                [4] = {
+                    ["name"] = "Force Boss (Emu)", --maybe
+                    ["edits"] = {
+                        { "0x146F21C", "F30F1080FCFFFFFFr" },
+                        { "0x146F21C", "F30F1080FCFFFFFFr" }
+                    }
+                },
+                [5] = {
+                    ["name"] = "Auto Win (Emu)", --maybe
+                    ["edits"] = {
+                        { "0x10213BE", "6A028F44240490r" },
+                        { "0x1021685", "C744240C0000A0C0909090r" },
+                        { "0x1D2C1BD", "90909090r" },
+                        { "0x2290238", "00000000r" },
+                        { "0x6D9670", "00000000r" }
+                    }
+                },
+                [6] = {
+                    ["name"] = "Free Upgrades (Emu)", --maybe
+                    ["edits"] = {
+                        { 0xDEDAE8, "F30F5CC0F30F5CC19090r" }
+                    }
+                }
+            }
+        },
 		 ["1.75.1"] = {
             ["version_status"] = "ON",
             ["download_link"] = "https://www.mediafire.com/file/lbmb5snmnm5b2az/Hill_Climb_Racing_2_1.75.1.apks/file",
