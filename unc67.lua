@@ -257,7 +257,7 @@ return {
                 [6] = {
                     ["name"] = "Free Upgrades (Emu)",
                     ["edits"] = {
-                        { "nil", "F30F5CC0F30F5CC19090r" }
+                        { "0xDF1AF0", "F30F5CC0F30F5CC19090r" }
                     }
                 }
             }
