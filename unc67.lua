@@ -365,7 +365,7 @@ return {
     ["three_coins_phone"] = 0x22349F0, --1.75.1
     ["mastery_emu"] = 0x20DEB78, --1.75.1
     ["tunes_lib_x64"] = 0x20DD788, --1.75.1
-    ["unl_cups_emu"] = 0x20DEFE8, --1.75.0
+    ["unl_cups_emu"] = 0x20E0FE8, --1.75.1 
     ["fake_unlock_emu"] = 0x145ED00, --1.75.1
     ["fake_vip_emu"] = 0x1463352, --1.75.1
     ["dist_emu"] = 0x20E3EE8, --1.75.1
