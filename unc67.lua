@@ -192,7 +192,7 @@ return {
     ["fly_phone"] = 0x2240828,
     ["mastery_coin_phone"] = 0x2240B58,
     ["three_coins_phone"] = 0x2240280,
-    ["mastery_emu"] = 0x263B2EC0, --1.75.2
+    ["mastery_emu"] = 0x20E9B88, --1.75.2
     ["tunes_lib_x64"] = 0x20E8798, --1.75.2
     ["unl_cups_emu"] = 0x20EBFF8, --1.75.2
     ["dist_emu"] = 0x20EEEF8, --1.75.2
