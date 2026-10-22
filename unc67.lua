@@ -130,7 +130,7 @@ return {
                 ["status_11"] = "ON",
                 ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_12"] = "OFF",
+                ["status_12"] = "ON",
                 ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
                 ["status_13"] = "ON",
@@ -194,7 +194,7 @@ return {
     ["three_coins_phone"] = 0x2240280,
     ["mastery_emu"] = 0x263B2EC0, --1.75.2
     ["tunes_lib_x64"] = 0x20E8798, --1.75.2
-    ["unl_cups_emu"] = 0x, --1.75.2
+    ["unl_cups_emu"] = 0x20EBFF8, --1.75.2
     ["dist_emu"] = 0x20EEEF8, --1.75.2
     ["fake_unlock_emu"] = 0x1462E0A, --1.75.2
     ["fake_vip_emu"] = 0x146745C, --1.75.2
@@ -241,7 +241,6 @@ return {
                     ["name"] = "Force Boss (Emu)",
                     ["edits"] = {
                         { 0x1473326, "F30F1080FCFFFFFFr" },
-                { 0x1473326, "F30F1080FCFFFFFFr" }
                     }
                 },
                 [5] = {
