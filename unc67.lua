@@ -171,27 +171,27 @@ return {
             ["force_emu_msg"] = "",
 
            ["offsets"] = {
-    ["mastery_phone"] = 0x20832F8, --1.75.1
-    ["tunes_lib_arm8"] = 0x2081F08, --1.75.1
-    ["unl_cups_phone"] = 0x2085768, --1.75.1
-    ["fake_unlock_phone"] = 0x15180D0, --1.75.1
-    ["fake_vip_phone"] = 0x151C4E4, --1.75.1
-    ["dist_phone"] = 0x2088668, --1.75.1
-    ["detach_phone"] = 0x1AC6680, --1.75.1
-    ["fuel_phone"] = 0x1AC53E8, --1.75.1
-    ["swap_phone"] = 0x22361C0, --1.75.1
-    ["chest_phone"] = 0x6E5450, --1.75.1
-    ["die_phone"] = 0x1AC541C, --1.75.1
-    ["countdown_phone"] = 0x2234EA8, --1.75.1
-    ["unban_1"] = 0x1508664, --1.75.1
-    ["unban_2"] = 0x150F090, --1.75.1
-    ["finish_line"] = 0x6E4218, --1.75.1
-    ["vehicle_speed_phone"] = 0x6E9BE4, --1.75.1
-    ["zoom_1_phone"] = 0x2234FFC, --1.75.1
-    ["zoom_2_phone"] = 0x2235000, --1.75.1
-    ["fly_phone"] = 0x2233F08, --1.75.0
-    ["mastery_coin_phone"] = 0x22352C8, --1.75.1
-    ["three_coins_phone"] = 0x22349F0, --1.75.1
+    ["mastery_phone"] = 0x0,
+    ["tunes_lib_arm8"] = 0x0,
+    ["unl_cups_phone"] = 0x0,
+    ["fake_unlock_phone"] = 0x151D0C8,
+    ["fake_vip_phone"] = 0x15214DC,
+    ["dist_phone"] = 0x172AF00,
+    ["detach_phone"] = 0x1AD1E40,
+    ["fuel_phone"] = 0x1AD0BA8,
+    ["swap_phone"] = 0x2241A50,
+    ["chest_phone"] = 0x6E7298,
+    ["die_phone"] = 0x1AD0BDC,
+    ["countdown_phone"] = 0x2240738,
+    ["unban_1"] = 0x150D65C,
+    ["unban_2"] = 0x1514088,
+    ["finish_line"] = 0x6E6060,
+    ["vehicle_speed_phone"] = 0x6EBA34,
+    ["zoom_1_phone"] = 0x224088C,
+    ["zoom_2_phone"] = 0x2240890,
+    ["fly_phone"] = 0x2240828,
+    ["mastery_coin_phone"] = 0x2240B58,
+    ["three_coins_phone"] = 0x2240280,
     ["mastery_emu"] = 0x263B2EC0, --1.75.2
     ["tunes_lib_x64"] = 0x20E8798, --1.75.2
     ["unl_cups_emu"] = 0x, --1.75.2
@@ -215,26 +215,26 @@ return {
                 [1] = {
                     ["name"] = "Force Boss",
                     ["edits"] = {
-                        { "0x150BBE8", "00C15FBCr" },
-                        { "0x1528200", "00C15FBCr" }
+                        { "0x1510BE0", "00C15FBCr" },
+                         { "0x152D1F8", "00C15FBCr" }
                     }
                 },
                 [2] = {
                     ["name"] = "Auto Win",
                     ["edits"] = {
-                        { "0x10F1844", "55008052r" },
-                        { "0x10F1A60", "0990321Er" },
-                        { "0x1AC541C", "00008052r" },
-                       { "0x1AC5420", "605608B9r" }, 
-                      --  { "0x1D40BFC", "080108CAr" }, 
-                        { "0x2234EA8", "00000000r" }
+                        { "0x10F6738", "55008052r" },
+                        { "0x10F6954", "0990321Er" },
+                         { "0x1AD0BDC", "00008052r" },
+               -- { "0x1AD0BE0", "605608B9r" },
+              --  { "0x1D4C3E4", "080108CAr" },
+                        { "0x2240738", "00000000r" }
                     }
                 },
                 [3] = {
                     ["name"] = "Free Upgrades",
                     ["edits"] = {
-                        { "0xEC2F6C", "0090641Er" },
-                        { "0xEC2F88", "0090641Er" }
+                        { "0xEC7E60", "0090641Er" },
+                { "0xEC7E7C", "0090641Er" }
                     }
                 },
                 [4] = {
