@@ -92,7 +92,7 @@ return {
     ["versions"] = {
 		["1.75.2"] = {
             ["version_status"] = "ON",
-            ["download_link"] = "https://www.mediafire.com/file/lbmb5snmnm5b2az/Hill_Climb_Racing_2_1.75.1.apks/file",
+            ["download_link"] = "https://www.mediafire.com/file/wsiwchh1n5ng0fk/Hill+Climb+Racing+2+1.75.2.apks/file",
             ["meta"] = { ["version"] = "1.75.2" },
             ["status"] = {
                 ["status"] = "ON",
@@ -216,7 +216,7 @@ return {
                     ["name"] = "Force Boss",
                     ["edits"] = {
                         { "0x1510BE0", "00C15FBCr" },
-                         { "0x152D1F8", "00C15FBCr" }
+                        { "0x152D1F8", "00C15FBCr" }
                     }
                 },
                 [2] = {
@@ -224,7 +224,7 @@ return {
                     ["edits"] = {
                         { "0x10F6738", "55008052r" },
                         { "0x10F6954", "0990321Er" },
-                         { "0x1AD0BDC", "00008052r" },
+                        { "0x1AD0BDC", "00008052r" },
                -- { "0x1AD0BE0", "605608B9r" },
               --  { "0x1D4C3E4", "080108CAr" },
                         { "0x2240738", "00000000r" }
@@ -247,10 +247,10 @@ return {
                     ["name"] = "Auto Win (Emu)",
                     ["edits"] = {
                        { "0x10253C6", "6A028F44240490r" },
-                { "0x102568D", "C744240C0000A0C0909090r" },
-                { "0x1D3783D", "90909090r" },
-                { "0x229BA98", "00000000r" },
-                { "0x6DB480", "00000000r" }
+                       { "0x102568D", "C744240C0000A0C0909090r" },
+                       { "0x1D3783D", "90909090r" },
+                       { "0x229BA98", "00000000r" },
+                       { "0x6DB480", "00000000r" }
                     }
                 },
                 [6] = {
