@@ -162,11 +162,11 @@ return {
             },
 
             ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = false,
+            ["auto_emu_enabled"] = true,
             ["force_arm8_enabled"] = true,
             ["force_emu_enabled"] = true,
             ["auto_arm8_msg"] = "",
-            ["auto_emu_msg"] = "ill update this soon if possible",
+            ["auto_emu_msg"] = "",
             ["force_arm8_msg"] = "",
             ["force_emu_msg"] = "",
 
