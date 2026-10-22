@@ -162,11 +162,11 @@ return {
             },
 
             ["auto_arm8_enabled"] = true,
-            ["auto_emu_enabled"] = true,
+            ["auto_emu_enabled"] = false,
             ["force_arm8_enabled"] = true,
             ["force_emu_enabled"] = true,
             ["auto_arm8_msg"] = "",
-            ["auto_emu_msg"] = "",
+            ["auto_emu_msg"] = "ill update this soon if possible",
             ["force_arm8_msg"] = "",
             ["force_emu_msg"] = "",
 
@@ -240,18 +240,18 @@ return {
                 [4] = {
                     ["name"] = "Force Boss (Emu)",
                     ["edits"] = {
-                        { "0x1473326", "F30F1080FCFFFFFFr" },
-                        { "0x10253C6", "F30F1080FCFFFFFFr" }
+                        { 0x1473326, "F30F1080FCFFFFFFr" },
+                { 0x1473326, "F30F1080FCFFFFFFr" }
                     }
                 },
                 [5] = {
                     ["name"] = "Auto Win (Emu)",
                     ["edits"] = {
-                       -- { "0x102568D", "6A028F44240490r" },
-                     --   { "0x1D3783D", "C744240C0000A0C0909090r" },
-                    --    { "0x229BA98", "90909090r" },
-                    --    { "0x6DB480", "00000000r" },
-                    --    { "0x229BA98", "00000000r" }
+                       { 0x10253C6, "6A028F44240490r" },
+                { 0x102568D, "C744240C0000A0C0909090r" },
+                { 0x1D3783D, "90909090r" },
+                { 0x229BA98, "00000000r" },
+                { 0x6DB480, "00000000r" }
                     }
                 },
                 [6] = {
