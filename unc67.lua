@@ -24,7 +24,7 @@ return {
 
     ["script_download"] = "https://drive.google.com/file/d/1G41bS4Ak8VgjGIckz4aJHL9p_cZpcOZ2/view?usp=drive_link",
 
-    ["status"] = "ON",
+["status"] = "ON",
     ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
     ["status_copy"] = "OFF",
     ["text_copy"] = "",
@@ -87,7 +87,70 @@ return {
     ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
     ["status_21"] = "ON",
-    ["status_21_msg"] = "❗ Remove Mastery Time is in Maintance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_21_msg"] = "❗ Remove Mastery Time is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_22"] = "ON",
+    ["status_22_msg"] = "❗ Fuel for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_23"] = "ON",
+    ["status_23_msg"] = "❗ Fuel for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_24"] = "ON",
+    ["status_24_msg"] = "❗ Swap Maps for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_25"] = "ON",
+    ["status_25_msg"] = "❗ Chest for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_26"] = "ON",
+    ["status_26_msg"] = "❗ Chest for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_27"] = "ON",
+    ["status_27_msg"] = "❗ Die for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_28"] = "ON",
+    ["status_28_msg"] = "❗ Die for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_29"] = "ON",
+    ["status_29_msg"] = "❗ Countdown for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_30"] = "ON",
+    ["status_30_msg"] = "❗ Countdown for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_31"] = "ON",
+    ["status_31_msg"] = "❗ Unban for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_32"] = "ON",
+    ["status_32_msg"] = "❗ Finish Line for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_33"] = "ON",
+    ["status_33_msg"] = "❗ Vehicle Speed for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_34"] = "ON",
+    ["status_34_msg"] = "❗ Vehicle Speed for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_35"] = "ON",
+    ["status_35_msg"] = "❗ Zoom for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_36"] = "ON",
+    ["status_36_msg"] = "❗ Zoom for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_37"] = "ON",
+    ["status_37_msg"] = "❗ Fly for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_38"] = "ON",
+    ["status_38_msg"] = "❗ Fly for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_39"] = "ON",
+    ["status_39_msg"] = "❗ Mastery Coin for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_40"] = "ON",
+    ["status_40_msg"] = "❗ Mastery Coin for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_41"] = "ON",
+    ["status_41_msg"] = "❗ Three Coins for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_42"] = "ON",
+    ["status_42_msg"] = "❗ Three Coins for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
     ["versions"] = {
 		["1.75.2"] = {
@@ -96,69 +159,132 @@ return {
             ["meta"] = { ["version"] = "1.75.2" },
             ["status"] = {
                 ["status"] = "ON",
-                ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
-                ["status_copy"] = "ON",
-                ["text_copy"] = "",
+    ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_copy"] = "OFF",
+    ["text_copy"] = "",
 
-                ["status_2"] = "ON",
-                ["status_2_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_2"] = "ON",
+    ["status_2_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_3"] = "ON",
-                ["status_3_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_3"] = "ON",
+    ["status_3_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_4"] = "ON",
-                ["status_4_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_4"] = "ON",
+    ["status_4_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_5"] = "ON",
-                ["status_5_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_5"] = "ON",
+    ["status_5_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_6"] = "ON",
-                ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_6"] = "ON",
+    ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_7"] = "ON",
-                ["status_7_msg"] = "❗ Max All Masteries for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_7"] = "ON",
+    ["status_7_msg"] = "❗ Max All Masteries for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_8"] = "ON",
-                ["status_8_msg"] = "❗ Max All Masteries for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_8"] = "ON",
+    ["status_8_msg"] = "❗ Max All Masteries for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_9"] = "ON",
-                ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_9"] = "ON",
+    ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_10"] = "ON",
-                ["status_10_msg"] = "❗ Max All Parts for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_10"] = "ON",
+    ["status_10_msg"] = "❗ Max All Parts for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_11"] = "ON",
-                ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_11"] = "ON",
+    ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_12"] = "ON",
-                ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_12"] = "ON",
+    ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_13"] = "ON",
-                ["status_13_msg"] = "❗ Free Upgrades for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_13"] = "ON",
+    ["status_13_msg"] = "❗ Free Upgrades for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_14"] = "ON",
-                ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_14"] = "ON",
+    ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_15"] = "ON",
-                ["status_15_msg"] = "❗ Get Tunes for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_15"] = "ON",
+    ["status_15_msg"] = "❗ Get Tunes for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_16"] = "ON",
-                ["status_16_msg"] = "❗ Get Tunes for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_16"] = "ON",
+    ["status_16_msg"] = "❗ Get Tunes for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_17"] = "ON",
-                ["status_17_msg"] = "❗ Auto Detach for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_17"] = "ON",
+    ["status_17_msg"] = "❗ Auto Detach for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_18"] = "ON",
-                ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_18"] = "ON",
+    ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_19"] = "ON",
-                ["status_19_msg"] = "❗ Distance for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_19"] = "ON",
+    ["status_19_msg"] = "❗ Distance for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_20"] = "ON",
-                ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_20"] = "ON",
+    ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-                ["status_21"] = "ON",
-                ["status_21_msg"] = "❗ There is no Vehicle with a locked Mastery right now!"
+    ["status_21"] = "ON",
+    ["status_21_msg"] = "❗ Remove Mastery Time is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_22"] = "ON",
+    ["status_22_msg"] = "❗ Fuel for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_23"] = "ON",
+    ["status_23_msg"] = "❗ Fuel for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_24"] = "ON",
+    ["status_24_msg"] = "❗ Swap Maps for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_25"] = "ON",
+    ["status_25_msg"] = "❗ Chest for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_26"] = "ON",
+    ["status_26_msg"] = "❗ Chest for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_27"] = "ON",
+    ["status_27_msg"] = "❗ Die for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_28"] = "ON",
+    ["status_28_msg"] = "❗ Die for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_29"] = "ON",
+    ["status_29_msg"] = "❗ Countdown for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_30"] = "ON",
+    ["status_30_msg"] = "❗ Countdown for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_31"] = "ON",
+    ["status_31_msg"] = "❗ Unban for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_32"] = "ON",
+    ["status_32_msg"] = "❗ Finish Line for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_33"] = "ON",
+    ["status_33_msg"] = "❗ Vehicle Speed for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_34"] = "ON",
+    ["status_34_msg"] = "❗ Vehicle Speed for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_35"] = "ON",
+    ["status_35_msg"] = "❗ Zoom for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_36"] = "ON",
+    ["status_36_msg"] = "❗ Zoom for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_37"] = "ON",
+    ["status_37_msg"] = "❗ Fly for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_38"] = "ON",
+    ["status_38_msg"] = "❗ Fly for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_39"] = "ON",
+    ["status_39_msg"] = "❗ Mastery Coin for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_40"] = "ON",
+    ["status_40_msg"] = "❗ Mastery Coin for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_41"] = "ON",
+    ["status_41_msg"] = "❗ Three Coins for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_42"] = "ON",
+    ["status_42_msg"] = "❗ Three Coins for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!"
             },
 
             ["auto_arm8_enabled"] = true,
