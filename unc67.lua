@@ -317,7 +317,7 @@ return {
     ["zoom_2_phone"] = 0x2499000,
     ["fly_phone"] = 0x2498F98,
     ["mastery_coin_phone"] = 0x24992C8,
-    ["three_coins_phone"] = 0x24989B0
+    ["three_coins_phone"] = 0x24989B0,
     ["mastery_emu"] = 0x20E9B88, --1.75.2
     ["tunes_lib_x64"] = 0x20E8798, --1.75.2
     ["unl_cups_emu"] = 0x20EBFF8, --1.75.2
