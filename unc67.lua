@@ -196,8 +196,8 @@ return {
     ["status_12"] = "ON",
     ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_13"] = "ON",
-    ["status_13_msg"] = "❗ Free Upgrades for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_13"] = "OFF",
+    ["status_13_msg"] = "fingersoft somehow broke free upgrades. please wait for me to fix it.",
 
     ["status_14"] = "ON",
     ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
@@ -297,60 +297,60 @@ return {
             ["force_emu_msg"] = "",
 
            ["offsets"] = {
-	["mastery_phone"] = 0x0,
-    ["tunes_lib_arm8"] = 0x0,
-    ["unl_cups_phone"] = 0x0,
-    ["fake_unlock_phone"] = 0x16A3668,
-    ["fake_vip_phone"] = 0x16A8B9C,
-    ["dist_phone"] = 0x18BF328,
-    ["detach_phone"] = 0x1D1420C,
-    ["fuel_phone"] = 0x1D12EC4,
-    ["swap_phone"] = 0x249A1E0,
-    ["chest_phone"] = 0x7428B8,
-    ["die_phone"] = 0x1D12EF8,
-    ["countdown_phone"] = 0x2498EA8,
-    ["unban_1"] = 0x16939E8,
-    ["unban_2"] = 0x169A578,
-    ["finish_line"] = 0x741468,
-    ["vehicle_speed_phone"] = 0x747154,
-    ["zoom_1_phone"] = 0x2498FFC,
-    ["zoom_2_phone"] = 0x2499000,
-    ["fly_phone"] = 0x2498F98,
-    ["mastery_coin_phone"] = 0x24992C8,
-    ["three_coins_phone"] = 0x24989B0,
-    ["mastery_emu"] = 0x20E9B88, --1.75.2
-    ["tunes_lib_x64"] = 0x20E8798, --1.75.2
-    ["unl_cups_emu"] = 0x20EBFF8, --1.75.2
-    ["dist_emu"] = 0x20EEEF8, --1.75.2
-    ["fake_unlock_emu"] = 0x1462E0A, --1.75.2
-    ["fake_vip_emu"] = 0x146745C, --1.75.2
-    ["detach_emu"] = 0x1A5BBDB, --1.75.2
-    ["fuel_emu"] = 0x1A5A81F, --1.75.2
-    ["chest_emu"] = 0x6DB228, --1.75.2
-    ["die_emu"] = 0x6DB480, --1.75.2
-    ["countdown_emu"] = 0x229BA98, --1.75.2
-    ["vehicle_speed_emu"] = 0x6E1E94, --1.75.2
-    ["zoom_1_emu"] = 0x229BBEC, --1.75.2
-    ["zoom_2_emu"] = 0x229BBF0, --1.75.2
-    ["fly_emu"] = 0x229BB88, --1.75.2
-    ["mastery_coin_emu"] = 0x229BEB8, --1.75.2
-["three_coins_emu"] = 0x229B5E0
+	["mastery_phone"] = 0x0, --nothing yet
+    ["tunes_lib_arm8"] = 0x22D0850, --1.76.0
+    ["unl_cups_phone"] = 0x22D4790, --1.76.0
+    ["fake_unlock_phone"] = 0x16A3668, --1.76.0
+    ["fake_vip_phone"] = 0x16A8B9C, --1.76.0
+    ["dist_phone"] = 0x0, --nothing yet
+    ["detach_phone"] = 0x1D1420C, --1.76.0
+    ["fuel_phone"] = 0x1D12EC4, --1.76.0
+    ["swap_phone"] = 0x249A1E0, --1.76.0
+    ["chest_phone"] = 0x7428B8, --1.76.0
+    ["die_phone"] = 0x1D12EF8, --1.76.0
+    ["countdown_phone"] = 0x2498EA8, --1.76.0
+    ["unban_1"] = 0x16939E8, --1.76.0
+    ["unban_2"] = 0x169A578, --1.76.0
+    ["finish_line"] = 0x741468, --1.76.0
+    ["vehicle_speed_phone"] = 0x747154, --1.76.0
+    ["zoom_1_phone"] = 0x2498FFC, --1.76.0
+    ["zoom_2_phone"] = 0x2499000, --1.76.0
+    ["fly_phone"] = 0x2498F98, --1.76.0
+    ["mastery_coin_phone"] = 0x24992C8, --1.76.0
+    ["three_coins_phone"] = 0x24989B0, --1.76.0
+    ["mastery_emu"] = 0x, --1.76.0
+    ["tunes_lib_x64"] = 0x0, --1.76.0
+    ["unl_cups_emu"] = 0x, --1.76.0
+    ["dist_emu"] = 0x0, --1.76.0
+    ["fake_unlock_emu"] = 0x15E10F0, --1.76.0
+    ["fake_vip_emu"] = 0x15E68A4, --1.76.0
+    ["detach_emu"] = 0x1CA2301, --1.76.0
+    ["fuel_emu"] = 0x1CA0E72, --1.76.0
+    ["chest_emu"] = 0x7362DC, --1.76.0
+    ["die_emu"] = 0x736574, --1.76.0
+    ["countdown_emu"] = 0x24F8158, --1.76.0
+    ["vehicle_speed_emu"] = 0x73D444, --1.76.0
+    ["zoom_1_emu"] = 0x24F82AC, --1.76.0
+    ["zoom_2_emu"] = 0x24F82B0, --1.76.0
+    ["fly_emu"] = 0x24F8248, --1.76.0
+    ["mastery_coin_emu"] = 0x24F8578, --1.76.0
+    ["three_coins_emu"] = 0x24F7C60 --1.76.0
 },
             ["PATCHES"] = {
                 [1] = {
                     ["name"] = "Force Boss",
                     ["edits"] = {
-                        { "0x1510BE0", "00C15FBCr" },
-                        { "0x152D1F8", "00C15FBCr" }
+                        { "0x1696F6C", "00C15FBCr" },
+                        { "0x16B4A9C", "00C15FBCr" }
                     }
                 },
                 [2] = {
                     ["name"] = "Auto Win",
                     ["edits"] = {
-                        { "0x10F6738", "55008052r" },
-                        { "0x10F6954", "0990321Er" },
-                        { "0x1AD0BDC", "00008052r" },
-                        { "0x2240738", "00000000r" }
+                        { "0x11F5910", "55008052r" },
+                        { "0x11F5B2C", "0990321Er" },
+                        { "0x1D12EF8", "00008052r" },
+                        { "0x2498EA8", "00000000r" }
                     }
                 },
                 [3] = {
