@@ -155,7 +155,7 @@ return {
     ["versions"] = {
 		["1.76.0"] = {
             ["version_status"] = "ON",
-            ["download_link"] = "https://www.mediafire.com/file/wsiwchh1n5ng0fk/Hill+Climb+Racing+2+1.75.2.apks/file",
+            ["download_link"] = "https://www.mediafire.com/file/kt4s8euwx9cw2uh/Hill+Climb+Racing+2+1.76.0.apks/file",
             ["meta"] = { ["version"] = "1.76.0" },
             ["status"] = {
                 ["status"] = "ON",
@@ -178,11 +178,11 @@ return {
     ["status_6"] = "ON",
     ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_7"] = "ON",
-    ["status_7_msg"] = "❗ Max All Masteries for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_7"] = "OFF",
+    ["status_7_msg"] = "ill update this tomorrow",
 
-    ["status_8"] = "ON",
-    ["status_8_msg"] = "❗ Max All Masteries for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_8"] = "OFF",
+    ["status_8_msg"] = "ill update this tomorrow",
 
     ["status_9"] = "ON",
     ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
@@ -214,11 +214,11 @@ return {
     ["status_18"] = "ON",
     ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_19"] = "ON",
-    ["status_19_msg"] = "❗ Distance for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_19"] = "OF",
+    ["status_19_msg"] = "fingersoft somehow broke this. please wait for me to fix it.",
 
-    ["status_20"] = "ON",
-    ["status_20_msg"] = "❗ Distance for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_20"] = "OF",
+    ["status_20_msg"] = "fingersoft somehow broke this. please wait for me to fix it.",
 
     ["status_21"] = "ON",
     ["status_21_msg"] = "❗ Remove Mastery Time is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
@@ -318,10 +318,10 @@ return {
     ["fly_phone"] = 0x2498F98, --1.76.0
     ["mastery_coin_phone"] = 0x24992C8, --1.76.0
     ["three_coins_phone"] = 0x24989B0, --1.76.0
-    ["mastery_emu"] = 0x, --1.76.0
-    ["tunes_lib_x64"] = 0x0, --1.76.0
-    ["unl_cups_emu"] = 0x, --1.76.0
-    ["dist_emu"] = 0x0, --1.76.0
+    ["mastery_emu"] = 0x, --nothing yet
+    ["tunes_lib_x64"] = 0x23300A0, --1.76.0
+    ["unl_cups_emu"] = 0x2333FE0, --1.76.0
+    ["dist_emu"] = 0x0, --nothing yet
     ["fake_unlock_emu"] = 0x15E10F0, --1.76.0
     ["fake_vip_emu"] = 0x15E68A4, --1.76.0
     ["detach_emu"] = 0x1CA2301, --1.76.0
