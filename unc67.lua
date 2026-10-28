@@ -363,7 +363,8 @@ return {
                 [4] = {
                     ["name"] = "Force Boss (Emu)",
                     ["edits"] = {
-                        { "0x15F2956", "F30F1080FCFFFFFFr" }
+                        { "0x15D457C", "F30F1080FCFFFFFFr" },
+						{ "0x15F2956", "F30F1080FCFFFFFFr" }
                     }
                 },
                 [5] = {
