@@ -214,10 +214,10 @@ return {
     ["status_18"] = "ON",
     ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_19"] = "ON",
+    ["status_19"] = "OFF",
     ["status_19_msg"] = "fingersoft somehow broke this. please wait for me to fix it.",
 
-    ["status_20"] = "ON",
+    ["status_20"] = "OFF",
     ["status_20_msg"] = "fingersoft somehow broke this. please wait for me to fix it.",
 
     ["status_21"] = "ON",
