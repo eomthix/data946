@@ -297,7 +297,7 @@ return {
             ["force_emu_msg"] = "",
 
            ["offsets"] = {
-	["mastery_phone"] = 0x0, --nothing yet
+	["mastery_phone"] = 0x22D2320, --1.76.0
     ["tunes_lib_arm8"] = 0x22D0850, --1.76.0
     ["unl_cups_phone"] = 0x22D4790, --1.76.0
     ["fake_unlock_phone"] = 0x16A3668, --1.76.0
