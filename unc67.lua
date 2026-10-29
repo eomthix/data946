@@ -178,11 +178,11 @@ return {
     ["status_6"] = "ON",
     ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
-    ["status_7"] = "OFF",
-    ["status_7_msg"] = "ill update this tomorrow",
+    ["status_7"] = "ON",
+    ["status_7_msg"] = "",
 
-    ["status_8"] = "OFF",
-    ["status_8_msg"] = "ill update this tomorrow",
+    ["status_8"] = "ON",
+    ["status_8_msg"] = "",
 
     ["status_9"] = "ON",
     ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
