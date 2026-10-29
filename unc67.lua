@@ -318,7 +318,7 @@ return {
     ["fly_phone"] = 0x2498F98, --1.76.0
     ["mastery_coin_phone"] = 0x24992C8, --1.76.0
     ["three_coins_phone"] = 0x24989B0, --1.76.0
-    ["mastery_emu"] = 0x, --nothing yet
+    ["mastery_emu"] = 0x2331B70, --1.76.0
     ["tunes_lib_x64"] = 0x23300A0, --1.76.0
     ["unl_cups_emu"] = 0x2333FE0, --1.76.0
     ["dist_emu"] = 0x0, --nothing yet
