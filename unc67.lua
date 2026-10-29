@@ -22,7 +22,7 @@ local Echo = "ECHO"
 
 return {
 
-    ["script_download"] = "https://drive.google.com/file/d/1G41bS4Ak8VgjGIckz4aJHL9p_cZpcOZ2/view?usp=drive_link",
+    ["script_download"] = "https://www.mediafire.com/file/x024jsyypmighn3/AIO_Every-Version#eomthix.lua/file",
 
 ["status"] = "ON",
     ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
