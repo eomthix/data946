@@ -318,23 +318,23 @@ return {
     ["fly_phone"] = 0x249AFA8,
     ["mastery_coin_phone"] = 0x249B2D8,
     ["three_coins_phone"] = 0x249A9C0,
-    ["mastery_emu"] = 0x2331B70, --1.76.0
-    ["tunes_lib_x64"] = 0x23300A0, --1.76.0
-    ["unl_cups_emu"] = 0x2333FE0, --1.76.0
-    ["dist_emu"] = 0x0, --nothing yet
-    ["fake_unlock_emu"] = 0x15E10F0, --1.76.0
-    ["fake_vip_emu"] = 0x15E68A4, --1.76.0
-    ["detach_emu"] = 0x1CA2301, --1.76.0
-    ["fuel_emu"] = 0x1CA0E72, --1.76.0
-    ["chest_emu"] = 0x7362DC, --1.76.0
-    ["die_emu"] = 0x736574, --1.76.0
-    ["countdown_emu"] = 0x24F8158, --1.76.0
-    ["vehicle_speed_emu"] = 0x73D444, --1.76.0
-    ["zoom_1_emu"] = 0x24F82AC, --1.76.0
-    ["zoom_2_emu"] = 0x24F82B0, --1.76.0
-    ["fly_emu"] = 0x24F8248, --1.76.0
-    ["mastery_coin_emu"] = 0x24F8578, --1.76.0
-    ["three_coins_emu"] = 0x24F7C60 --1.76.0
+    ["mastery_emu"] = 0x0,
+    ["unl_cups_emu"] = 0x0,
+    ["dist_emu"] = 0x0,
+    ["tunes_lib_x64"] = 0x0,
+    ["fake_unlock_emu"] = 0x15E1AEA,
+    ["fake_vip_emu"] = 0x15E729E,
+    ["detach_emu"] = 0x1CA347B,
+    ["fuel_emu"] = 0x1CA1FEC,
+    ["chest_emu"] = 0x736618,
+    ["die_emu"] = 0x7368B0,
+    ["countdown_emu"] = 0x24F9158,
+    ["vehicle_speed_emu"] = 0x73D784,
+    ["zoom_1_emu"] = 0x24F92AC,
+    ["zoom_2_emu"] = 0x24F92B0,
+    ["fly_emu"] = 0x24F9248,
+    ["mastery_coin_emu"] = 0x24F9578,
+    ["three_coins_emu"] = 0x24F8C60
 },
             ["PATCHES"] = {
                 [1] = {
@@ -360,27 +360,27 @@ return {
                         { "0xEC7E7C", "0090641Er" }
                     }
                 },
-                [4] = {
+                  [4] = {
                     ["name"] = "Force Boss (Emu)",
                     ["edits"] = {
-                        { "0x15D457C", "F30F1080FCFFFFFFr" },
-						{ "0x15F2956", "F30F1080FCFFFFFFr" }
+                        { "0x15F3484", "F30F1080FCFFFFFFr" },
+                        { "0x15D4F76", "F30F1080FCFFFFFFr" }
                     }
                 },
                 [5] = {
                     ["name"] = "Auto Win (Emu)",
                     ["edits"] = {
-                       { "0x111430C", "6A028F44240490r" },
-                       { "0x11145D3", "C744240C0000A0C0909090r" },
-                       { "0x1F7D63D", "90909090r" },
-                       { "0x24F8158", "00000000r" },
-                       { "0x736574", "00000000r" }
+                        { "0x1114482", "6A028F44240490r" },
+                        { "0x1114749", "C744240C0000A0C0909090r" },
+                        { "0x1F7E9BD", "90909090r" },
+                        { "0x24F9158", "00000000r" },
+                        { "0x7368B0", "00000000r" }
                     }
                 },
                 [6] = {
                     ["name"] = "Free Upgrades (Emu)",
                     ["edits"] = {
-                        { "0xEBC466", "F30F5CC0F30F5CC19090r" }
+                        { "0xEBC508", "F30F5CC0F30F5CC19090r" }
                     }
                 }
             }
