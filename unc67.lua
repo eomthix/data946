@@ -153,6 +153,238 @@ return {
     ["status_42_msg"] = "❗ Three Coins for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
 
     ["versions"] = {
+		["1.76.1"] = {
+            ["version_status"] = "ON",
+            ["download_link"] = "https://www.mediafire.com/file/kt4s8euwx9cw2uh/Hill+Climb+Racing+2+1.76.0.apks/file",
+            ["meta"] = { ["version"] = "1.76.1" },
+            ["status"] = {
+                ["status"] = "ON",
+    ["status_msg"] = "❗ Main Script is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+    ["status_copy"] = "OFF",
+    ["text_copy"] = "",
+
+    ["status_2"] = "ON",
+    ["status_2_msg"] = "❗ Fake Unlock for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_3"] = "ON",
+    ["status_3_msg"] = "❗ Fake Unlock for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_4"] = "ON",
+    ["status_4_msg"] = "❗ Fake VIP for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_5"] = "ON",
+    ["status_5_msg"] = "❗ Fake VIP for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_6"] = "ON",
+    ["status_6_msg"] = "❗ Unlock Cars Stuff is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_7"] = "ON",
+    ["status_7_msg"] = "",
+
+    ["status_8"] = "ON",
+    ["status_8_msg"] = "",
+
+    ["status_9"] = "ON",
+    ["status_9_msg"] = "❗ Max All Parts for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_10"] = "ON",
+    ["status_10_msg"] = "❗ Max All Parts for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_11"] = "ON",
+    ["status_11_msg"] = "❗ Unlimited Tasks for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_12"] = "ON",
+    ["status_12_msg"] = "❗ Unlimited Tasks for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_13"] = "ON",
+    ["status_13_msg"] = "fingersoft somehow broke free upgrades. please wait for me to fix it.",
+
+    ["status_14"] = "ON",
+    ["status_14_msg"] = "❗ Free Upgrades for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_15"] = "ON",
+    ["status_15_msg"] = "❗ Get Tunes for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_16"] = "ON",
+    ["status_16_msg"] = "❗ Get Tunes for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_17"] = "ON",
+    ["status_17_msg"] = "❗ Auto Detach for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_18"] = "ON",
+    ["status_18_msg"] = "❗ Auto Detach for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_19"] = "OFF",
+    ["status_19_msg"] = "fingersoft somehow broke this. please wait for me to fix it.",
+
+    ["status_20"] = "OFF",
+    ["status_20_msg"] = "fingersoft somehow broke this. please wait for me to fix it.",
+
+    ["status_21"] = "ON",
+    ["status_21_msg"] = "❗ Remove Mastery Time is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_22"] = "ON",
+    ["status_22_msg"] = "❗ Fuel for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_23"] = "ON",
+    ["status_23_msg"] = "❗ Fuel for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_24"] = "ON",
+    ["status_24_msg"] = "❗ Swap Maps for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_25"] = "ON",
+    ["status_25_msg"] = "❗ Chest for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_26"] = "ON",
+    ["status_26_msg"] = "❗ Chest for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_27"] = "ON",
+    ["status_27_msg"] = "❗ Die for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_28"] = "ON",
+    ["status_28_msg"] = "❗ Die for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_29"] = "ON",
+    ["status_29_msg"] = "❗ Countdown for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_30"] = "ON",
+    ["status_30_msg"] = "❗ Countdown for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_31"] = "ON",
+    ["status_31_msg"] = "❗ Unban for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_32"] = "ON",
+    ["status_32_msg"] = "❗ Finish Line for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_33"] = "ON",
+    ["status_33_msg"] = "❗ Vehicle Speed for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_34"] = "ON",
+    ["status_34_msg"] = "❗ Vehicle Speed for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_35"] = "ON",
+    ["status_35_msg"] = "❗ Zoom for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_36"] = "ON",
+    ["status_36_msg"] = "❗ Zoom for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_37"] = "ON",
+    ["status_37_msg"] = "❗ Fly for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_38"] = "ON",
+    ["status_38_msg"] = "❗ Fly for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_39"] = "ON",
+    ["status_39_msg"] = "❗ Mastery Coin for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_40"] = "ON",
+    ["status_40_msg"] = "❗ Mastery Coin for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_41"] = "ON",
+    ["status_41_msg"] = "❗ Three Coins for ARMV8 is in Maintenance mode! Check t.me/hcr2ggz for more updates!",
+
+    ["status_42"] = "ON",
+    ["status_42_msg"] = "❗ Three Coins for x86_64 is in Maintenance mode! Check t.me/hcr2ggz for more updates!"
+            },
+
+            ["auto_arm8_enabled"] = true,
+            ["auto_emu_enabled"] = true,
+            ["force_arm8_enabled"] = true,
+            ["force_emu_enabled"] = true,
+            ["auto_arm8_msg"] = "",
+            ["auto_emu_msg"] = "",
+            ["force_arm8_msg"] = "",
+            ["force_emu_msg"] = "",
+
+           ["offsets"] = {
+	    ["mastery_phone"] = 0x0,
+    ["unl_cups_phone"] = 0x0,
+	["dist_phone"] = 0x0,
+	["tunes_lib_arm8"] = 0x0,
+    ["fake_unlock_phone"] = 0x16A4FD0,
+    ["fake_vip_phone"] = 0x16AA504,
+    ["detach_phone"] = 0x1D162D0,
+    ["fuel_phone"] = 0x1D14F88,
+    ["swap_phone"] = 0x249C1F0,
+    ["chest_phone"] = 0x742BF0,
+    ["die_phone"] = 0x1D14FBC,
+    ["countdown_phone"] = 0x249AEB8,
+    ["unban_1"] = 0x1695350,
+    ["unban_2"] = 0x169BEE0,
+    ["finish_line"] = 0x7417A0,
+    ["vehicle_speed_phone"] = 0x747494,
+    ["zoom_1_phone"] = 0x249B00C,
+    ["zoom_2_phone"] = 0x249B010,
+    ["fly_phone"] = 0x249AFA8,
+    ["mastery_coin_phone"] = 0x249B2D8,
+    ["three_coins_phone"] = 0x249A9C0,
+    ["mastery_emu"] = 0x2331B70, --1.76.0
+    ["tunes_lib_x64"] = 0x23300A0, --1.76.0
+    ["unl_cups_emu"] = 0x2333FE0, --1.76.0
+    ["dist_emu"] = 0x0, --nothing yet
+    ["fake_unlock_emu"] = 0x15E10F0, --1.76.0
+    ["fake_vip_emu"] = 0x15E68A4, --1.76.0
+    ["detach_emu"] = 0x1CA2301, --1.76.0
+    ["fuel_emu"] = 0x1CA0E72, --1.76.0
+    ["chest_emu"] = 0x7362DC, --1.76.0
+    ["die_emu"] = 0x736574, --1.76.0
+    ["countdown_emu"] = 0x24F8158, --1.76.0
+    ["vehicle_speed_emu"] = 0x73D444, --1.76.0
+    ["zoom_1_emu"] = 0x24F82AC, --1.76.0
+    ["zoom_2_emu"] = 0x24F82B0, --1.76.0
+    ["fly_emu"] = 0x24F8248, --1.76.0
+    ["mastery_coin_emu"] = 0x24F8578, --1.76.0
+    ["three_coins_emu"] = 0x24F7C60 --1.76.0
+},
+            ["PATCHES"] = {
+                [1] = {
+                    ["name"] = "Force Boss",
+                    ["edits"] = {
+                        { "0x1696F6C", "00C15FBCr" },
+                        { "0x16B4A9C", "00C15FBCr" }
+                    }
+                },
+                [2] = {
+                    ["name"] = "Auto Win",
+                    ["edits"] = {
+                        { "0x11F5910", "55008052r" },
+                        { "0x11F5B2C", "0990321Er" },
+                        { "0x1D12EF8", "00008052r" },
+                        { "0x2498EA8", "00000000r" }
+                    }
+                },
+                [3] = {
+                    ["name"] = "Free Upgrades",
+                    ["edits"] = {
+                        { "0xEC7E60", "0090641Er" },
+                        { "0xEC7E7C", "0090641Er" }
+                    }
+                },
+                [4] = {
+                    ["name"] = "Force Boss (Emu)",
+                    ["edits"] = {
+                        { "0x15D457C", "F30F1080FCFFFFFFr" },
+						{ "0x15F2956", "F30F1080FCFFFFFFr" }
+                    }
+                },
+                [5] = {
+                    ["name"] = "Auto Win (Emu)",
+                    ["edits"] = {
+                       { "0x111430C", "6A028F44240490r" },
+                       { "0x11145D3", "C744240C0000A0C0909090r" },
+                       { "0x1F7D63D", "90909090r" },
+                       { "0x24F8158", "00000000r" },
+                       { "0x736574", "00000000r" }
+                    }
+                },
+                [6] = {
+                    ["name"] = "Free Upgrades (Emu)",
+                    ["edits"] = {
+                        { "0xEBC466", "F30F5CC0F30F5CC19090r" }
+                    }
+                }
+            }
+        },
 		["1.76.0"] = {
             ["version_status"] = "ON",
             ["download_link"] = "https://www.mediafire.com/file/kt4s8euwx9cw2uh/Hill+Climb+Racing+2+1.76.0.apks/file",
