@@ -297,7 +297,7 @@ return {
             ["force_emu_msg"] = "",
 
            ["offsets"] = {
-	    ["mastery_phone"] = 0x0,
+	    ["mastery_phone"] = 0x22D2860,
     ["unl_cups_phone"] = 0x0,
 	["dist_phone"] = 0x0,
 	["tunes_lib_arm8"] = 0x0,
@@ -318,10 +318,10 @@ return {
     ["fly_phone"] = 0x249AFA8,
     ["mastery_coin_phone"] = 0x249B2D8,
     ["three_coins_phone"] = 0x249A9C0,
-    ["mastery_emu"] = 0x0,
-    ["unl_cups_emu"] = 0x0,
+    ["mastery_emu"] = 0x2332B70,
+    ["unl_cups_emu"] = 0x2334FE0,
     ["dist_emu"] = 0x0,
-    ["tunes_lib_x64"] = 0x0,
+    ["tunes_lib_x64"] = 0x23310A0,
     ["fake_unlock_emu"] = 0x15E1AEA,
     ["fake_vip_emu"] = 0x15E729E,
     ["detach_emu"] = 0x1CA347B,
