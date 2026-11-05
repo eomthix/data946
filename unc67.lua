@@ -298,7 +298,7 @@ return {
 
            ["offsets"] = {
 	    ["mastery_phone"] = 0x22D4330,
-    ["unl_cups_phone"] = 0x0,
+    ["unl_cups_phone"] = 0x22D67A0,
 	["dist_phone"] = 0x0,
 	["tunes_lib_arm8"] = 0x22D2860,
     ["fake_unlock_phone"] = 0x16A4FD0,
