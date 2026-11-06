@@ -155,7 +155,7 @@ return {
     ["versions"] = {
 		["1.76.1"] = {
             ["version_status"] = "ON",
-            ["download_link"] = "https://www.mediafire.com/file/kt4s8euwx9cw2uh/Hill+Climb+Racing+2+1.76.0.apks/file",
+            ["download_link"] = "https://www.mediafire.com/file/sipyg6nhihmtv51/Hill+Climb+Racing+2+1.76.1.apks/file",
             ["meta"] = { ["version"] = "1.76.1" },
             ["status"] = {
                 ["status"] = "ON",
